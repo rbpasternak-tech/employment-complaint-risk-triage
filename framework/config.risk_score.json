@@ -1,0 +1,42 @@
+{
+  "dataset": "triage_complaints",
+  "loader": "complaints",
+  "loader_args": {
+    "index": "../prediction/cases/filings.json",
+    "text_dir": "../prediction/cases"
+  },
+  "stage": "risk_score",
+  "run_date": null,
+  "concurrency": 4,
+  "limit": null,
+  "tools": {
+    "decisions": {
+      "url": "https://api.openai.com/v1/decisions",
+      "model": "gpt-6-luna",
+      "key_env": "OPENAI_API_KEY",
+      "usd_per_m_input": 0.1
+    },
+    "jev": {
+      "url": "https://api.typesafe.ai/v1/systemone",
+      "model": "jev-1.13.0",
+      "key_env": "JEV_API_KEY",
+      "usd_per_m_input": 0.042
+    }
+  },
+  "schema": {
+    "p_survive": {
+      "type": "predicate",
+      "question": "Reading only this complaint, would at least some claims likely survive a Rule 12(b)(6) motion to dismiss?"
+    },
+    "risk_tier": {
+      "type": "choice",
+      "question": "Overall litigation risk to the employer if this complaint were received today?",
+      "choices": {
+        "high": "Likely survives dismissal; class/collective exposure",
+        "medium": "Mixed; some claims vulnerable",
+        "low": "Likely dismissed or small individual exposure"
+      }
+    }
+  },
+  "output": "out/{dataset}-risk-{run_date}.jsonl"
+}

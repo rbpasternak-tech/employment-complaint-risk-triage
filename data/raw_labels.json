@@ -1,0 +1,380 @@
+[
+ {
+  "id": "e00",
+  "search_bucket": "FLSA",
+  "case_name": "Harrington v. Fb Hospitality, LLC",
+  "court": "dcd",
+  "date_filed": "2024-09-26",
+  "url": "https://www.courtlistener.com/opinion/10125198/harrington-v-fb-hospitality-llc/",
+  "docket_id": 67742498,
+  "cluster_id": 10125198,
+  "opinion_id": 10591799,
+  "chars": 17470,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 17470,
+  "decisions": {
+   "out": "denied",
+   "ct": "FLSA",
+   "tok": 4537,
+   "ms": 941.3574489954044
+  },
+  "jev": {
+   "out": "denied",
+   "ct": "FLSA",
+   "tok": 5139,
+   "ms": 212.4173839983996
+  }
+ },
+ {
+  "id": "e01",
+  "search_bucket": "FLSA",
+  "case_name": "Haggar v. McDonough",
+  "court": "dcd",
+  "date_filed": "2024-12-12",
+  "url": "https://www.courtlistener.com/opinion/10292289/haggar-v-mcdonough/",
+  "docket_id": 69460558,
+  "cluster_id": 10292289,
+  "opinion_id": 10758877,
+  "chars": 17704,
+  "heuristic": "denied",
+  "dispositive_excerpt": "ORDERED that the Department\u2019s [7] Partial Motion to Dismiss Haggar\u2019s Amended Complaint is DENIED WITHOUT PREJUDICE; and it is further ORDERED that Haggar file a notice reporting whether he waives his claims over $10,000 on or before December 20, 2024.",
+  "excerpt_chars": 17704,
+  "decisions": {
+   "out": "not_decided_on_12b6",
+   "ct": "FLSA",
+   "tok": 4996,
+   "ms": 914.6606880021864
+  },
+  "jev": {
+   "out": "not_decided_on_12b6",
+   "ct": "FLSA",
+   "tok": 5772,
+   "ms": 210.86277299764333
+  }
+ },
+ {
+  "id": "e02",
+  "search_bucket": "FLSA",
+  "case_name": "Thompson v. Rcx, LLC",
+  "court": "dcd",
+  "date_filed": "2023-02-22",
+  "url": "https://www.courtlistener.com/opinion/9378975/thompson-v-rcx-llc/",
+  "docket_id": 66836596,
+  "cluster_id": 9378975,
+  "opinion_id": 9374451,
+  "chars": 19346,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 19346,
+  "decisions": {
+   "out": "denied",
+   "ct": "FLSA",
+   "tok": 5055,
+   "ms": 881.4460130015505
+  },
+  "jev": {
+   "out": "denied",
+   "ct": "FLSA",
+   "tok": 5733,
+   "ms": 211.18515000125626
+  }
+ },
+ {
+  "id": "e03",
+  "search_bucket": "FLSA",
+  "case_name": "Slaughter v. Catholic University of America",
+  "court": "dcd",
+  "date_filed": "2023-11-15",
+  "url": "https://www.courtlistener.com/opinion/9441000/slaughter-v-catholic-university-of-america/",
+  "docket_id": 68007679,
+  "cluster_id": 9441000,
+  "opinion_id": 9898825,
+  "chars": 17283,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 17283,
+  "decisions": {
+   "out": "granted",
+   "ct": "FLSA",
+   "tok": 4747,
+   "ms": 864.85685200023
+  },
+  "jev": {
+   "out": "granted",
+   "ct": "FLSA",
+   "tok": 5449,
+   "ms": 200.49708300211933
+  }
+ },
+ {
+  "id": "e04",
+  "search_bucket": "FLSA",
+  "case_name": "Harrington v. Fb Hospitality, LLC",
+  "court": "dcd",
+  "date_filed": "2023-08-29",
+  "url": "https://www.courtlistener.com/opinion/9423253/harrington-v-fb-hospitality-llc/",
+  "docket_id": 67742498,
+  "cluster_id": 9423253,
+  "opinion_id": 9779545,
+  "chars": 25155,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 30009,
+  "decisions": {
+   "out": "granted_in_part",
+   "ct": "FLSA",
+   "tok": 7550,
+   "ms": 235.76838499866426
+  },
+  "jev": {
+   "out": "granted_in_part",
+   "ct": "FLSA",
+   "tok": 8500,
+   "ms": 221.23654399911175
+  }
+ },
+ {
+  "id": "e05",
+  "search_bucket": "FLSA",
+  "case_name": "Trout v. Select Group LLC",
+  "court": "dcd",
+  "date_filed": "2023-10-10",
+  "url": "https://www.courtlistener.com/opinion/9431842/trout-v-select-group-llc/",
+  "docket_id": 67870002,
+  "cluster_id": 9431842,
+  "opinion_id": 9889661,
+  "chars": 42279,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 30009,
+  "decisions": {
+   "out": "not_decided_on_12b6",
+   "ct": "FLSA",
+   "tok": 7447,
+   "ms": 339.65421999891987
+  },
+  "jev": {
+   "out": "not_decided_on_12b6",
+   "ct": "FLSA",
+   "tok": 8268,
+   "ms": 216.9288789955317
+  }
+ },
+ {
+  "id": "e06",
+  "search_bucket": "FLSA",
+  "case_name": "Slaughter v. Catholic University of America",
+  "court": "dcd",
+  "date_filed": "2024-03-27",
+  "url": "https://www.courtlistener.com/opinion/9488355/slaughter-v-catholic-university-of-america/",
+  "docket_id": 68007679,
+  "cluster_id": 9488355,
+  "opinion_id": 9954968,
+  "chars": 24442,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 30009,
+  "decisions": {
+   "out": "not_decided_on_12b6",
+   "ct": "FLSA",
+   "tok": 7783,
+   "ms": 249.0707859979011
+  },
+  "jev": {
+   "out": "not_decided_on_12b6",
+   "ct": "FLSA",
+   "tok": 8749,
+   "ms": 235.13196100248024
+  }
+ },
+ {
+  "id": "e07",
+  "search_bucket": "FLSA",
+  "case_name": "Cruz v. Jimenez Construction LLC",
+  "court": "dcd",
+  "date_filed": "2023-03-31",
+  "url": "https://www.courtlistener.com/opinion/9388717/cruz-v-jimenez-construction-llc/",
+  "docket_id": 67119401,
+  "cluster_id": 9388717,
+  "opinion_id": 9384193,
+  "chars": 22846,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 22846,
+  "decisions": {
+   "out": "granted_in_part",
+   "ct": "FLSA",
+   "tok": 6354,
+   "ms": 179.50365900469478
+  },
+  "jev": {
+   "out": "granted_in_part",
+   "ct": "FLSA",
+   "tok": 7187,
+   "ms": 218.8047399977222
+  }
+ },
+ {
+  "id": "e08",
+  "search_bucket": "FLSA",
+  "case_name": "Owens v. Thompson",
+  "court": "dcd",
+  "date_filed": "2024-03-28",
+  "url": "https://www.courtlistener.com/opinion/9489027/owens-v-thompson/",
+  "docket_id": 68387556,
+  "cluster_id": 9489027,
+  "opinion_id": 9955640,
+  "chars": 19202,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 19202,
+  "decisions": {
+   "out": "denied",
+   "ct": "Title VII",
+   "tok": 5226,
+   "ms": 262.05453800503165
+  },
+  "jev": {
+   "out": "denied",
+   "ct": "Title VII",
+   "tok": 6044,
+   "ms": 189.93705600587418
+  }
+ },
+ {
+  "id": "e09",
+  "search_bucket": "state_wage_hour",
+  "case_name": "Powell v. National Institute of Building Sciences",
+  "court": "dcd",
+  "date_filed": "2024-09-29",
+  "url": "https://www.courtlistener.com/opinion/10126744/powell-v-national-institute-of-building-sciences/",
+  "docket_id": 69206947,
+  "cluster_id": 10126744,
+  "opinion_id": 10593345,
+  "chars": 38225,
+  "heuristic": "granted_in_part",
+  "dispositive_excerpt": "The defendant\u2019s Motion for Summary Judgment is denied without prejudice.",
+  "excerpt_chars": 24470,
+  "decisions": {
+   "out": "granted_in_part",
+   "ct": "state_wage_hour",
+   "tok": 6403,
+   "ms": 221.73707399633713
+  },
+  "jev": {
+   "out": "granted_in_part",
+   "ct": "other",
+   "tok": 7232,
+   "ms": 228.4036519995425
+  }
+ },
+ {
+  "id": "e10",
+  "search_bucket": "state_wage_hour",
+  "case_name": "Covington v. Fmc & Associates, LLC",
+  "court": "dcd",
+  "date_filed": "2023-08-10",
+  "url": "https://www.courtlistener.com/opinion/9419511/covington-v-fmc-associates-llc/",
+  "docket_id": 67682088,
+  "cluster_id": 9419511,
+  "opinion_id": 9555073,
+  "chars": 42515,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 24297,
+  "decisions": {
+   "out": "denied",
+   "ct": "state_wage_hour",
+   "tok": 7021,
+   "ms": 232.354159001261
+  },
+  "jev": {
+   "out": "denied",
+   "ct": "state_wage_hour",
+   "tok": 8032,
+   "ms": 256.2371370004257
+  }
+ },
+ {
+  "id": "e11",
+  "search_bucket": "state_wage_hour",
+  "case_name": "Sparrow v. Washington Metropolitan Area Transit Authority",
+  "court": "dcd",
+  "date_filed": "2024-07-26",
+  "url": "https://www.courtlistener.com/opinion/10015452/sparrow-v-washington-metropolitan-area-transit-authority/",
+  "docket_id": 68982894,
+  "cluster_id": 10015452,
+  "opinion_id": 10482053,
+  "chars": 81932,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 30009,
+  "decisions": {
+   "out": "not_decided_on_12b6",
+   "ct": "Title VII",
+   "tok": 7838,
+   "ms": 222.1197580001899
+  },
+  "jev": {
+   "out": "not_decided_on_12b6",
+   "ct": "Title VII",
+   "tok": 8871,
+   "ms": 220.47037899756106
+  }
+ },
+ {
+  "id": "e12",
+  "search_bucket": "state_wage_hour",
+  "case_name": "Daniel P. Lieber v. P Marquis Management, LLC, et al",
+  "court": "nhd",
+  "date_filed": "2023-08-31",
+  "url": "https://www.courtlistener.com/opinion/10696990/daniel-p-lieber-v-p-marquis-management-llc-et-al/",
+  "docket_id": 71596464,
+  "cluster_id": 10696990,
+  "opinion_id": 11163578,
+  "chars": 78496,
+  "heuristic": "granted_in_part",
+  "dispositive_excerpt": "Finally, Lieber\u2019s partial motion for summary judgment84 is DENIED.",
+  "excerpt_chars": 30009,
+  "decisions": {
+   "out": "not_decided_on_12b6",
+   "ct": "state_wage_hour",
+   "tok": 7413,
+   "ms": 241.07379199995194
+  },
+  "jev": {
+   "out": "not_decided_on_12b6",
+   "ct": "ADA",
+   "tok": 8349,
+   "ms": 240.9306010013097
+  }
+ },
+ {
+  "id": "e13",
+  "search_bucket": "ADA",
+  "case_name": "B.D., by their next friend, Christine Wellington v. Christopher Sununu, Governor of New Hampshire et al.",
+  "court": "nhd",
+  "date_filed": "2024-09-18",
+  "url": "https://www.courtlistener.com/opinion/10696274/bd-by-their-next-friend-christine-wellington-v-christopher-sununu/",
+  "docket_id": 71595858,
+  "cluster_id": 10696274,
+  "opinion_id": 11162862,
+  "chars": 87217,
+  "heuristic": null,
+  "dispositive_excerpt": "",
+  "excerpt_chars": 30009,
+  "decisions": {
+   "out": "not_decided_on_12b6",
+   "ct": "other",
+   "tok": 7359,
+   "ms": 228.48101099953055
+  },
+  "jev": {
+   "out": "not_decided_on_12b6",
+   "ct": "other",
+   "tok": 8363,
+   "ms": 255.93572299840162
+  }
+ }
+]

@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Employment 12(b)(6) Classifier · Decisions vs Jev</title>
+<style>
+:root{--ink:#1b2430;--mute:#667085;--line:#e4e7ec;--bg:#f6f7f9;--d:#2f5aa8;--j:#c2662d;--ok:#1f8a5b;--bad:#c23b3b}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+header{background:#111a2b;color:#fff;padding:22px 32px}header h1{margin:0;font-size:20px;font-weight:600}header p{margin:4px 0 0;color:#aab4c5;font-size:13px}
+main{max-width:1200px;margin:0 auto;padding:24px 32px 48px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.kpi .l{color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.04em}.kpi .v{font-size:26px;font-weight:650;margin-top:4px}.kpi .s{color:var(--mute);font-size:12px}
+.grid2{display:grid;grid-template-columns:1.1fr 1fr;gap:14px;margin-bottom:18px}
+h2{font-size:15px;margin:0 0 12px}table{width:100%;border-collapse:collapse}th,td{white-space:normal;text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--mute);font-weight:600;background:#fafbfc;cursor:pointer;user-select:none}
+.tag{display:inline-block;white-space:nowrap;padding:1px 8px;border-radius:99px;font-size:12px;background:#eef1f5}
+.granted{background:#fde8e8;color:#9b2c2c}.denied{background:#e3f4ea;color:#17663f}.granted_in_part{background:#fff3dc;color:#8a5a00}.not_reached{background:#eceff3;color:#4a5565}
+.y{color:var(--ok);font-weight:600}.n{color:var(--bad);font-weight:600}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}select,input{font:inherit;padding:6px 9px;border:1px solid var(--line);border-radius:7px;background:#fff}
+a{color:var(--d)}.legend span{display:inline-flex;align-items:center;margin-right:12px;font-size:12px;color:var(--mute)}.legend i{width:10px;height:10px;border-radius:2px;margin-right:5px;display:inline-block}
+.bar{display:flex;height:22px;border-radius:5px;overflow:hidden;background:#eef1f5}.bar div{height:100%}
+.brow{display:grid;grid-template-columns:130px 1fr 34px;gap:10px;align-items:center;margin:7px 0;font-size:13px}
+.cmp td:nth-child(2){color:var(--d);font-weight:600}.cmp td:nth-child(3){color:var(--j);font-weight:600}
+footer{color:var(--mute);font-size:12px;margin-top:18px}
+</style></head><body>
+<header><h1>Employment Class Action · Rule 12(b)(6) Outcome Classifier</h1><p id="sub"></p></header>
+<main>
+<section class="kpis" id="kpis"></section>
+<section class="grid2">
+ <div class="card"><h2>Decisions API vs Jev</h2><table class="cmp" id="cmp"></table></div>
+ <div class="card"><h2>Outcome mix by claim type <span style="font-weight:400;color:var(--mute)">(Decisions call)</span></h2><div class="legend" id="legend"></div><div id="chart"></div></div>
+</section>
+<section class="card" style="margin-bottom:18px"><h2>Disagreements <span id="dn" style="font-weight:400;color:var(--mute)"></span></h2><div id="dis"></div></section>
+<section class="card"><h2>Cases</h2>
+ <div class="filters"><input id="q" placeholder="Search case name…"><select id="fc"></select><select id="fo"></select><select id="fa"><option value="">Agree: all</option><option value="y">Agree</option><option value="n">Disagree</option></select><select id="fb"></select></div>
+ <table id="t"><thead><tr><th data-k="case">Case</th><th data-k="court">Court</th><th data-k="date">Date</th><th data-k="claim">Claim type</th><th data-k="d">Decisions</th><th data-k="j">Jev</th><th data-k="agree">Agree?</th><th data-k="final">Final</th><th>Opinion</th></tr></thead><tbody></tbody></table>
+</section>
+<footer id="foot"></footer>
+</main>
+<script>
+const DATA=/*DATA*/null;const R=DATA.rows,S=DATA.summary;
+const OUT=["granted","granted_in_part","denied","not_reached"],COL={granted:"#d9534f",granted_in_part:"#e8a33d",denied:"#2e9b63",not_reached:"#9aa5b4"};
+const LBL={granted:"Granted",granted_in_part:"Granted in part",denied:"Denied",not_reached:"Not reached"};
+const CT={flsa:"FLSA",state_wage_hour:"State wage & hour",title_vii:"Title VII",ada:"ADA",adea:"ADEA",erisa:"ERISA",warn:"WARN",other:"Other"};
+const e=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tag=o=>o?`<span class="tag ${o}">${LBL[o]||o}</span>`:'<span style="color:#aaa">—</span>';
+const pct=(a,b)=>b?Math.round(100*a/b)+"%":"n/a",money=v=>v==null?"n/a":"$"+v.toFixed(2);
+document.getElementById("sub").textContent=`${S.n} rulings · ${S.cases} lawsuits · built ${S.built}`;
+const c=S.cost;
+document.getElementById("kpis").innerHTML=[
+ ["Rulings labeled",S.n,`${S.cases} distinct lawsuits`],
+ ["Outcome agreement",pct(S.agree,S.both),`${S.agree} of ${S.both} rulings; claim type ${pct(S.ct_agree,S.ct_n)}`],
+ ["Accuracy vs final label",S.gt?`${pct(c.decisions.acc[0],S.gt)} / ${pct(c.jev.acc[0],S.gt)}`:"n/a",`Decisions / Jev on ${S.gt} verified ruling${S.gt==1?"":"s"}`],
+ ["Cost per 1,000 docs",`${money(c.decisions.per1k)} / ${money(c.jev.per1k)}`,"Decisions / Jev, input tokens"]
+].map(([l,v,s])=>`<div class="card kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join("");
+const dist=k=>OUT.map(o=>R.filter(r=>r[k]===o).length);
+const dd=dist("d"),jd=dist("j");
+document.getElementById("cmp").innerHTML=`<tr><th></th><th>Decisions</th><th>Jev</th></tr>`+
+ [["Model","gpt-6-luna","jev-1.13.0"],["Accuracy vs final",S.gt?`${c.decisions.acc[0]}/${S.gt}`:"n/a",S.gt?`${c.jev.acc[0]}/${S.gt}`:"n/a"],
+  ["Cost / 1,000 docs",money(c.decisions.per1k),money(c.jev.per1k)],["Median latency",c.decisions.median_ms?Math.round(c.decisions.median_ms)+" ms":"n/a",c.jev.median_ms?Math.round(c.jev.median_ms)+" ms":"n/a"],
+  ...OUT.map((o,i)=>[LBL[o],dd[i],jd[i]])].map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td></tr>`).join("");
+document.getElementById("legend").innerHTML=OUT.map(o=>`<span><i style="background:${COL[o]}"></i>${LBL[o]}</span>`).join("");
+const cts=[...new Set(R.map(r=>r.claim||"other"))].sort((a,b)=>R.filter(r=>(r.claim||"other")==b).length-R.filter(r=>(r.claim||"other")==a).length);
+document.getElementById("chart").innerHTML=cts.map(ct=>{const rs=R.filter(r=>(r.claim||"other")==ct);return `<div class="brow"><div>${CT[ct]||ct}</div><div class="bar">${OUT.map(o=>{const n=rs.filter(r=>r.d===o).length;return n?`<div title="${LBL[o]}: ${n}" style="width:${100*n/rs.length}%;background:${COL[o]}"></div>`:""}).join("")}</div><div style="text-align:right;color:var(--mute)">${rs.length}</div></div>`}).join("");
+const dis=R.filter(r=>!r.agree||(r.dct&&r.dct!==r.jct));
+document.getElementById("dn").textContent=`(${dis.length})`;
+document.getElementById("dis").innerHTML=dis.length?`<table><tr><th>Case</th><th>What differs</th><th>Decisions</th><th>Jev</th><th></th></tr>${dis.map(r=>{const o=!r.agree;return `<tr><td>${e(r.case)}</td><td>${o?"Outcome":"Claim type"}</td><td>${o?tag(r.d):e(CT[r.dct]||r.dct)}</td><td>${o?tag(r.j):e(CT[r.jct]||r.jct)}</td><td>${r.url?`<a href="${e(r.url)}" target="_blank">Opinion ↗</a>`:""}</td></tr>`}).join("")}</table>`:"<p>None — the tools agree on every ruling.</p>";
+const opt=(id,lab,vals,f)=>document.getElementById(id).innerHTML=`<option value="">${lab}: all</option>`+vals.map(v=>`<option value="${e(v)}">${e(f?f(v):v)}</option>`).join("");
+opt("fc","Claim",cts,v=>CT[v]||v);opt("fo","Decisions call",OUT,v=>LBL[v]);opt("fb","Batch",[...new Set(R.map(r=>r.batch))]);
+let sk="date",sd=-1;
+function draw(){const q=document.getElementById("q").value.toLowerCase(),fc=fc_.value,fo=fo_.value,fa=fa_.value,fb=fb_.value;
+ const rs=R.filter(r=>(!q||(r.case||"").toLowerCase().includes(q))&&(!fc||(r.claim||"other")==fc)&&(!fo||r.d==fo)&&(!fa||(fa=="y")==r.agree)&&(!fb||r.batch==fb))
+  .sort((a,b)=>(String(a[sk]??"")>String(b[sk]??"")?1:-1)*sd);
+ document.querySelector("#t tbody").innerHTML=rs.map(r=>`<tr><td>${e(r.case)}</td><td>${e((r.court||"").toUpperCase())}</td><td>${e(r.date||"")}</td><td>${e(CT[r.claim]||r.claim||"")}</td><td>${tag(r.d)}</td><td>${tag(r.j)}</td><td>${r.agree?'<span class="y">Yes</span>':'<span class="n">No</span>'}</td><td>${tag(r.final)}</td><td>${r.url?`<a href="${e(r.url)}" target="_blank">${(r.url||"").includes("govinfo")?"GovInfo":"CourtListener"} ↗</a>`:""}</td></tr>`).join("")||'<tr><td colspan="9">No matching cases.</td></tr>'}
+const fc_=document.getElementById("fc"),fo_=document.getElementById("fo"),fa_=document.getElementById("fa"),fb_=document.getElementById("fb");
+["q","fc","fo","fa","fb"].forEach(i=>document.getElementById(i).addEventListener("input",draw));
+document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{sd=sk==th.dataset.k?-sd:1;sk=th.dataset.k;draw()});draw();
+document.getElementById("foot").textContent=`Sources: ${S.sources.join(", ")}. "Final" = accepted ground truth (outcome_final); accuracy is scored only where it is set. Cost uses list input-token prices (Decisions $0.10/M, Jev $0.042/M). Opinions: CourtListener and GovInfo (USCOURTS), public domain.`;
+</script></body></html>

@@ -1,0 +1,77 @@
+{
+  "dataset": "triage_complaints",
+  "loader": "complaints",
+  "loader_args": {
+    "index": "../prediction/cases/filings.json",
+    "text_dir": "../prediction/cases"
+  },
+  "stage": "feature_extraction",
+  "run_date": null,
+  "concurrency": 4,
+  "limit": null,
+  "tools": {
+    "decisions": {
+      "url": "https://api.openai.com/v1/decisions",
+      "model": "gpt-6-luna",
+      "key_env": "OPENAI_API_KEY",
+      "usd_per_m_input": 0.1
+    },
+    "jev": {
+      "url": "https://api.typesafe.ai/v1/systemone",
+      "model": "jev-1.13.0",
+      "key_env": "JEV_API_KEY",
+      "usd_per_m_input": 0.042
+    }
+  },
+  "schema": {
+    "class_vehicle": {
+      "type": "choice",
+      "question": "How is this case brought?",
+      "choices": {
+        "flsa_collective": "FLSA collective action",
+        "rule23_class": "Rule 23 class action",
+        "both": "Both collective and class",
+        "individual": "Individual plaintiff(s) only",
+        "unknown": "Cannot tell"
+      }
+    },
+    "claim_type": {
+      "type": "choice",
+      "question": "Primary employment claim asserted?",
+      "choices": "@label.CT"
+    },
+    "factual_specificity": {
+      "type": "choice",
+      "question": "How specific are the factual allegations supporting the claims?",
+      "choices": {
+        "specific": "Names dates, hours, pay amounts, decision-makers or comparators",
+        "mixed": "Some specifics, much conclusory",
+        "boilerplate": "Mostly legal conclusions and template language"
+      }
+    },
+    "plaintiff_count_bucket": {
+      "type": "choice",
+      "question": "How many named plaintiffs?",
+      "choices": {
+        "1": "One",
+        "2_10": "2 to 10",
+        "11_100": "11 to 100",
+        "100_plus": "More than 100",
+        "unknown": "Not stated"
+      }
+    },
+    "damages_pled": {
+      "type": "choice",
+      "question": "What amount of damages is pled?",
+      "choices": {
+        "none": "No amount",
+        "under_1m": "Under $1M",
+        "1m_10m": "$1M to $10M",
+        "over_10m": "Over $10M",
+        "unspecified": "Damages sought but no amount"
+      }
+    }
+  },
+  "output": "out/{dataset}-features-{run_date}.jsonl",
+  "_note": "plaintiff_firm is pulled from the signature block by a regex/human pass, not the classifier (free-text)."
+}

@@ -1,0 +1,10 @@
+.env
+*.key
+.secrets/
+__pycache__/
+*.pyc
+out/
+*.pdf
+cases/
+*.log
+.DS_Store

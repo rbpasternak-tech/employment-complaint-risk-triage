@@ -1,0 +1,21 @@
+{
+  "dataset": "employment_12b6_batch1",
+  "loader": "litigation_cases",
+  "loader_args": {"index": "../cases/index.json", "text_dir": "../cases"},
+  "stage": "outcome_label",
+  "run_date": null,
+  "concurrency": 4,
+  "limit": null,
+  "tools": {
+    "decisions": {"url": "https://api.openai.com/v1/decisions", "model": "gpt-6-luna", "key_env": "OPENAI_API_KEY", "usd_per_m_input": 0.10},
+    "jev": {"url": "https://api.typesafe.ai/v1/systemone", "model": "jev-1.13.0", "key_env": "JEV_API_KEY", "usd_per_m_input": 0.042}
+  },
+  "schema": {
+    "outcome": {"type": "choice", "question": "What was the outcome of the Rule 12(b)(6) motion to dismiss decided in this opinion?",
+      "choices": "@label.OUT"},
+    "claim_type": {"type": "choice", "question": "What is the primary type of employment claim asserted in this putative class or collective action?",
+      "choices": "@label.CT"},
+    "p_survive": {"type": "predicate", "question": "Did at least some of the plaintiffs' claims survive the Rule 12(b)(6) motion (motion denied in full or in part)?"}
+  },
+  "output": "out/{dataset}-{run_date}.jsonl"
+}

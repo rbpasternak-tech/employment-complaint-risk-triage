@@ -1,0 +1,624 @@
+[
+ {
+  "id": "e00",
+  "case_name": "Harrington v. Fb Hospitality, LLC",
+  "court": "dcd",
+  "date": "2024-09-26",
+  "outcome_final": null,
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.dcd.241189"
+  ],
+  "ia": "gov.uscourts.dcd.241189",
+  "ia_title": "HARRINGTON v. FB HOSPITALITY, LLC",
+  "ia_pdfs": [
+   "gov.uscourts.dcd.241189.1.0.pdf",
+   "gov.uscourts.dcd.241189.1.1.pdf",
+   "gov.uscourts.dcd.241189.1.2.pdf",
+   "gov.uscourts.dcd.241189.1.3.pdf",
+   "gov.uscourts.dcd.241189.1.4.pdf",
+   "gov.uscourts.dcd.241189.1.5.pdf",
+   "gov.uscourts.dcd.241189.1.6.pdf",
+   "gov.uscourts.dcd.241189.1.7.pdf",
+   "gov.uscourts.dcd.241189.1.8.pdf",
+   "gov.uscourts.dcd.241189.38.0.pdf",
+   "gov.uscourts.dcd.241189.47.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "e01",
+  "case_name": "Haggar v. McDonough",
+  "court": "dcd",
+  "date": "2024-12-12",
+  "outcome_final": null,
+  "d": "not_reached",
+  "ia_candidates": [
+   "gov.uscourts.dcd.251616"
+  ],
+  "ia": "gov.uscourts.dcd.251616",
+  "ia_title": "HAGGAR v. MCDONOUGH",
+  "ia_pdfs": [
+   "gov.uscourts.dcd.251616.18.0.pdf"
+  ],
+  "s3_complaint": false
+ },
+ {
+  "id": "e02",
+  "case_name": "Thompson v. Rcx, LLC",
+  "court": "dcd",
+  "date": "2023-02-22",
+  "outcome_final": null,
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.dcd.109742",
+   "gov.uscourts.dcd.105695",
+   "gov.uscourts.dcd.198561",
+   "gov.uscourts.dcd.712",
+   "gov.uscourts.dcd.282822",
+   "gov.uscourts.dcd.242412",
+   "gov.uscourts.dcd.243713",
+   "gov.uscourts.dcd.109672",
+   "gov.uscourts.dcd.112051",
+   "gov.uscourts.dcd.14601"
+  ]
+ },
+ {
+  "id": "e03",
+  "case_name": "Slaughter v. Catholic University of America",
+  "court": "dcd",
+  "date": "2023-11-15",
+  "outcome_final": null,
+  "d": "granted",
+  "ia_candidates": [
+   "gov.uscourts.dcd.259762"
+  ],
+  "ia": "gov.uscourts.dcd.259762",
+  "ia_title": "SLAUGHTER v. CATHOLIC UNIVERSITY OF AMERICA",
+  "ia_pdfs": [
+   "gov.uscourts.dcd.259762.1.0.pdf",
+   "gov.uscourts.dcd.259762.1.1.pdf",
+   "gov.uscourts.dcd.259762.1.2.pdf",
+   "gov.uscourts.dcd.259762.1.3.pdf",
+   "gov.uscourts.dcd.259762.1.4.pdf",
+   "gov.uscourts.dcd.259762.11.0.pdf",
+   "gov.uscourts.dcd.259762.12.0.pdf",
+   "gov.uscourts.dcd.259762.15.1.pdf",
+   "gov.uscourts.dcd.259762.23.0.pdf",
+   "gov.uscourts.dcd.259762.25.1.pdf",
+   "gov.uscourts.dcd.259762.34.1.pdf",
+   "gov.uscourts.dcd.259762.34.2.pdf",
+   "gov.uscourts.dcd.259762.34.3.pdf",
+   "gov.uscourts.dcd.259762.4.0.pdf",
+   "gov.uscourts.dcd.259762.42.0.pdf",
+   "gov.uscourts.dcd.259762.43.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "e05",
+  "case_name": "Trout v. Select Group LLC",
+  "court": "dcd",
+  "date": "2023-10-10",
+  "outcome_final": null,
+  "d": "not_reached",
+  "ia_candidates": []
+ },
+ {
+  "id": "e07",
+  "case_name": "Cruz v. Jimenez Construction LLC",
+  "court": "dcd",
+  "date": "2023-03-31",
+  "outcome_final": null,
+  "d": "granted_in_part",
+  "ia_candidates": [
+   "gov.uscourts.dcd.220157"
+  ],
+  "ia": "gov.uscourts.dcd.220157",
+  "ia_title": "CRUZ v. JIMENEZ CONSTRUCTION LLC",
+  "ia_pdfs": [
+   "gov.uscourts.dcd.220157.1.0.pdf",
+   "gov.uscourts.dcd.220157.19.0.pdf",
+   "gov.uscourts.dcd.220157.23.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "e08",
+  "case_name": "Owens v. Thompson",
+  "court": "dcd",
+  "date": "2024-03-28",
+  "outcome_final": null,
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.dcd.252995"
+  ],
+  "ia": "gov.uscourts.dcd.252995",
+  "ia_title": "OWENS v. THOMPSON",
+  "ia_pdfs": [
+   "gov.uscourts.dcd.252995.1.0.pdf",
+   "gov.uscourts.dcd.252995.20.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "e09",
+  "case_name": "Powell v. National Institute of Building Sciences",
+  "court": "dcd",
+  "date": "2024-09-29",
+  "outcome_final": "granted_in_part",
+  "d": "granted_in_part",
+  "ia_candidates": [
+   "gov.uscourts.dcd.191500",
+   "gov.uscourts.dcd.261704"
+  ],
+  "ia": "gov.uscourts.dcd.191500",
+  "ia_title": "POWELL v. NATIONAL ACADEMY OF SCIENCES",
+  "ia_pdfs": [],
+  "s3_complaint": false
+ },
+ {
+  "id": "e10",
+  "case_name": "Covington v. Fmc & Associates, LLC",
+  "court": "dcd",
+  "date": "2023-08-10",
+  "outcome_final": null,
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.dcd.243592"
+  ],
+  "ia": "gov.uscourts.dcd.243592",
+  "ia_title": "COVINGTON v. FMC & ASSOCIATES, LLC",
+  "ia_pdfs": [
+   "gov.uscourts.dcd.243592.1.0.pdf",
+   "gov.uscourts.dcd.243592.20.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "e11",
+  "case_name": "Sparrow v. Washington Metropolitan Area Transit Authority",
+  "court": "dcd",
+  "date": "2024-07-26",
+  "outcome_final": null,
+  "d": "not_reached",
+  "ia_candidates": [
+   "gov.uscourts.dcd.245752"
+  ],
+  "ia": "gov.uscourts.dcd.245752",
+  "ia_title": "SPARROW v. WASHINGTON METROPOLITAN AREA TRANSIT AUTHORITY",
+  "ia_pdfs": [
+   "gov.uscourts.dcd.245752.28.0.pdf"
+  ],
+  "s3_complaint": false
+ },
+ {
+  "id": "e12",
+  "case_name": "Daniel P. Lieber v. P Marquis Management, LLC, et al",
+  "court": "nhd",
+  "date": "2023-08-31",
+  "outcome_final": null,
+  "d": "not_reached",
+  "ia_candidates": []
+ },
+ {
+  "id": "e13",
+  "case_name": "B.D., by their next friend, Christine Wellington v. Christopher Sununu, Governor of New Hampshire et al.",
+  "court": "nhd",
+  "date": "2024-09-18",
+  "outcome_final": null,
+  "d": "not_reached",
+  "ia_candidates": []
+ },
+ {
+  "id": "g00",
+  "case_name": "Devillaz v. Atmosphere Gastropub, Inc. et al",
+  "court": "cod",
+  "date": "2023-05-12",
+  "outcome_final": "granted_in_part",
+  "d": "granted",
+  "ia_candidates": [
+   "gov.uscourts.cod.212467"
+  ],
+  "ia": "gov.uscourts.cod.212467",
+  "ia_title": "Devillaz v. Atmosphere Gastropub, Inc.",
+  "ia_pdfs": [
+   "gov.uscourts.cod.212467.1.0.pdf",
+   "gov.uscourts.cod.212467.34.0.pdf",
+   "gov.uscourts.cod.212467.49.0.pdf",
+   "gov.uscourts.cod.212467.50.0.pdf",
+   "gov.uscourts.cod.212467.54.0.pdf",
+   "gov.uscourts.cod.212467.55.0.pdf",
+   "gov.uscourts.cod.212467.56.0.pdf",
+   "gov.uscourts.cod.212467.57.0.pdf",
+   "gov.uscourts.cod.212467.58.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g01",
+  "case_name": "Seguin v. Royal Highness, LLC et al",
+  "court": "mied",
+  "date": "2025-09-30",
+  "outcome_final": "granted",
+  "d": "granted",
+  "ia_candidates": [
+   "gov.uscourts.mied.380334"
+  ],
+  "ia": "gov.uscourts.mied.380334",
+  "ia_title": "Seguin v. Royal Highness, LLC",
+  "ia_pdfs": [
+   "gov.uscourts.mied.380334.1.0.pdf",
+   "gov.uscourts.mied.380334.12.0.pdf",
+   "gov.uscourts.mied.380334.19.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g02",
+  "case_name": "Kluender, Michelle v. Oak Grove Assisted Care LLC",
+  "court": "wiwd",
+  "date": "2023-11-06",
+  "outcome_final": "denied",
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.wiwd.51221"
+  ],
+  "ia": "gov.uscourts.wiwd.51221",
+  "ia_title": "Kluender, Michelle v. Oak Grove Assisted Care LLC",
+  "ia_pdfs": [
+   "gov.uscourts.wiwd.51221.1.0.pdf",
+   "gov.uscourts.wiwd.51221.20.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g03",
+  "case_name": "Rivera v. CHSPSC, LLC",
+  "court": "nmd",
+  "date": "2024-07-23",
+  "outcome_final": "denied",
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.nmd.486968"
+  ],
+  "ia": "gov.uscourts.nmd.486968",
+  "ia_title": "Rivera v. CHSPSC, LLC",
+  "ia_pdfs": [
+   "gov.uscourts.nmd.486968.1.0.pdf",
+   "gov.uscourts.nmd.486968.48.0.pdf",
+   "gov.uscourts.nmd.486968.49.0.pdf",
+   "gov.uscourts.nmd.486968.50.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g04",
+  "case_name": "Jenkins, on behalf of himself and all similarly situated individuals, v. EVO Services Group, LLC",
+  "court": "ohsd",
+  "date": "2024-02-20",
+  "outcome_final": "granted_in_part",
+  "d": "not_reached",
+  "ia_candidates": [
+   "gov.uscourts.ohsd.285785",
+   "gov.uscourts.ohsd.280667"
+  ],
+  "ia": "gov.uscourts.ohsd.280667",
+  "ia_title": "Jenkins, on behalf of himself and all similarly situated individuals v. EVO Services Group, LLC",
+  "ia_pdfs": [
+   "gov.uscourts.ohsd.280667.1.0.pdf",
+   "gov.uscourts.ohsd.280667.2.0.pdf",
+   "gov.uscourts.ohsd.280667.20.0.pdf",
+   "gov.uscourts.ohsd.280667.21.0.pdf",
+   "gov.uscourts.ohsd.280667.22.0.pdf",
+   "gov.uscourts.ohsd.280667.24.0.pdf",
+   "gov.uscourts.ohsd.280667.7.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g05",
+  "case_name": "Cayton v. Metropolitan Government of Nashville & Davidson County",
+  "court": "tnmd",
+  "date": "2022-01-19",
+  "outcome_final": null,
+  "d": "not_reached",
+  "ia_candidates": [
+   "gov.uscourts.tnmd.84048"
+  ],
+  "ia": "gov.uscourts.tnmd.84048",
+  "ia_title": "Cayton v. Metropolitan Government of Nashville & Davidson County",
+  "ia_pdfs": [
+   "gov.uscourts.tnmd.84048.1.0.pdf",
+   "gov.uscourts.tnmd.84048.10.0.pdf",
+   "gov.uscourts.tnmd.84048.136.0.pdf",
+   "gov.uscourts.tnmd.84048.138.0.pdf",
+   "gov.uscourts.tnmd.84048.142.0.pdf",
+   "gov.uscourts.tnmd.84048.96.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g06",
+  "case_name": "McCarthy v. Medicus Healthcare Solutions, LLC",
+  "court": "nhd",
+  "date": "2022-04-04",
+  "outcome_final": "denied",
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.nhd.57487"
+  ],
+  "ia": "gov.uscourts.nhd.57487",
+  "ia_title": "McCarthy v. Medicus Healthcare Solutions, LLC",
+  "ia_pdfs": [
+   "gov.uscourts.nhd.57487.1.0.pdf",
+   "gov.uscourts.nhd.57487.22.0.pdf",
+   "gov.uscourts.nhd.57487.58.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g08",
+  "case_name": "Antwoine Taylor et al v. Amazon.com Services LLC et al",
+  "court": "caed",
+  "date": "2025-01-27",
+  "outcome_final": "denied",
+  "d": "not_reached",
+  "ia_candidates": [
+   "gov.uscourts.caed.453661"
+  ],
+  "ia": "gov.uscourts.caed.453661",
+  "ia_title": "Antwoine Taylor v. Amazon.com Services LLC",
+  "ia_pdfs": [
+   "gov.uscourts.caed.453661.34.0.pdf",
+   "gov.uscourts.caed.453661.36.0.pdf"
+  ],
+  "s3_complaint": false
+ },
+ {
+  "id": "g09",
+  "case_name": "Fulton et al v. City of New York",
+  "court": "nyed",
+  "date": "2024-02-28",
+  "outcome_final": "granted",
+  "d": "granted",
+  "ia_candidates": [
+   "gov.uscourts.nyed.520306",
+   "gov.uscourts.nyed.443489"
+  ]
+ },
+ {
+  "id": "g10",
+  "case_name": "Zimnicki et al v. Krysiak Construction Corp. et al",
+  "court": "nyed",
+  "date": "2023-08-29",
+  "outcome_final": null,
+  "d": "granted_in_part",
+  "ia_candidates": [
+   "gov.uscourts.nyed.468355"
+  ],
+  "ia": "gov.uscourts.nyed.468355",
+  "ia_title": "Zimnicki v. Krysiak Construction Corp.",
+  "ia_pdfs": [
+   "gov.uscourts.nyed.468355.17.0.pdf",
+   "gov.uscourts.nyed.468355.44.0.pdf",
+   "gov.uscourts.nyed.468355.49.0.pdf",
+   "gov.uscourts.nyed.468355.52.0.pdf",
+   "gov.uscourts.nyed.468355.53.0.pdf",
+   "gov.uscourts.nyed.468355.53.1.pdf",
+   "gov.uscourts.nyed.468355.53.2.pdf",
+   "gov.uscourts.nyed.468355.53.3.pdf",
+   "gov.uscourts.nyed.468355.64.0.pdf",
+   "gov.uscourts.nyed.468355.67.0.pdf"
+  ],
+  "s3_complaint": false
+ },
+ {
+  "id": "g11",
+  "case_name": "Garland v. Duane Morris, LLP et al",
+  "court": "casd",
+  "date": "2025-08-01",
+  "outcome_final": "granted_in_part",
+  "d": "granted_in_part",
+  "ia_candidates": [
+   "gov.uscourts.casd.795165"
+  ],
+  "ia": "gov.uscourts.casd.795165",
+  "ia_title": "Garland v. Duane Morris, LLP",
+  "ia_pdfs": [
+   "gov.uscourts.casd.795165.1.0.pdf",
+   "gov.uscourts.casd.795165.14.0.pdf",
+   "gov.uscourts.casd.795165.21.0.pdf",
+   "gov.uscourts.casd.795165.30.0.pdf",
+   "gov.uscourts.casd.795165.35.0.pdf",
+   "gov.uscourts.casd.795165.36.0.pdf",
+   "gov.uscourts.casd.795165.37.0.pdf",
+   "gov.uscourts.casd.795165.38.0.pdf",
+   "gov.uscourts.casd.795165.42.0.pdf",
+   "gov.uscourts.casd.795165.43.0.pdf",
+   "gov.uscourts.casd.795165.53.0.pdf",
+   "gov.uscourts.casd.795165.54.0.pdf",
+   "gov.uscourts.casd.795165.56.0.pdf",
+   "gov.uscourts.casd.795165.64.0.pdf",
+   "gov.uscourts.casd.795165.65.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g12",
+  "case_name": "Timberg v. Toombs et al",
+  "court": "nyed",
+  "date": "2022-03-30",
+  "outcome_final": "granted_in_part",
+  "d": "granted_in_part",
+  "ia_candidates": [
+   "gov.uscourts.nyed.457091"
+  ],
+  "ia": "gov.uscourts.nyed.457091",
+  "ia_title": "Timberg v. Toombs",
+  "ia_pdfs": [
+   "gov.uscourts.nyed.457091.1.0.pdf",
+   "gov.uscourts.nyed.457091.16.0.pdf",
+   "gov.uscourts.nyed.457091.9.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g13",
+  "case_name": "Mizzero v. Albany Med Health System",
+  "court": "nynd",
+  "date": "2025-09-25",
+  "outcome_final": "denied",
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.nynd.138309"
+  ],
+  "ia": "gov.uscourts.nynd.138309",
+  "ia_title": "Mizzero v. Albany Med Health System",
+  "ia_pdfs": [
+   "gov.uscourts.nynd.138309.1.0.pdf",
+   "gov.uscourts.nynd.138309.45.0.pdf",
+   "gov.uscourts.nynd.138309.62.0.pdf",
+   "gov.uscourts.nynd.138309.63.0.pdf",
+   "gov.uscourts.nynd.138309.68.5.pdf",
+   "gov.uscourts.nynd.138309.75.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "g14",
+  "case_name": "Latipov et al v. AN Enterprise Inc et al",
+  "court": "ilnd",
+  "date": "2024-02-07",
+  "outcome_final": "denied",
+  "d": "denied",
+  "ia_candidates": [
+   "gov.uscourts.ilnd.431717"
+  ],
+  "ia": "gov.uscourts.ilnd.431717",
+  "ia_title": "Latipov v. AN Enterprise Inc",
+  "ia_pdfs": [
+   "gov.uscourts.ilnd.431717.1.0.pdf",
+   "gov.uscourts.ilnd.431717.102.0.pdf",
+   "gov.uscourts.ilnd.431717.156.0.pdf",
+   "gov.uscourts.ilnd.431717.163.0.pdf",
+   "gov.uscourts.ilnd.431717.165.0.pdf",
+   "gov.uscourts.ilnd.431717.43.0.pdf",
+   "gov.uscourts.ilnd.431717.68.0.pdf",
+   "gov.uscourts.ilnd.431717.84.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "x1",
+  "case_name": "Shaw v. Navistar, Inc.",
+  "court": "ilnd",
+  "date": "2024-08-13",
+  "outcome_final": "granted_in_part",
+  "note": "outcome from opinion text (exa snippet)",
+  "ia_candidates": [
+   "gov.uscourts.ilnd.448228"
+  ],
+  "ia": "gov.uscourts.ilnd.448228",
+  "ia_title": "Shaw v. Navistar, Inc.",
+  "ia_pdfs": [
+   "gov.uscourts.ilnd.448228.26.0.pdf",
+   "gov.uscourts.ilnd.448228.40.0.pdf"
+  ],
+  "s3_complaint": false
+ },
+ {
+  "id": "x2",
+  "case_name": "Featherstone v. FCA US, LLC",
+  "court": "mied",
+  "date": "2024",
+  "outcome_final": "denied",
+  "note": "opinion title: ORDER DENYING MTD",
+  "ia_candidates": [
+   "gov.uscourts.mied.343944",
+   "gov.uscourts.mied.367603"
+  ],
+  "ia": "gov.uscourts.mied.367603",
+  "ia_title": "Featherstone v. FCA US, LLC",
+  "ia_pdfs": [
+   "gov.uscourts.mied.367603.1.0.pdf",
+   "gov.uscourts.mied.367603.25.0.pdf",
+   "gov.uscourts.mied.367603.34.0.pdf",
+   "gov.uscourts.mied.367603.48.0.pdf",
+   "gov.uscourts.mied.367603.55.0.pdf",
+   "gov.uscourts.mied.367603.59.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "x3",
+  "case_name": "Van Duser v. Tozzer Ltd.",
+  "court": "nysd",
+  "date": "2024",
+  "outcome_final": "denied",
+  "note": "opinion: Defendants' motion is DENIED",
+  "ia_candidates": [
+   "gov.uscourts.nysd.608829"
+  ],
+  "ia": "gov.uscourts.nysd.608829",
+  "ia_title": "Van Duser v. Tozzer Ltd.",
+  "ia_pdfs": [
+   "gov.uscourts.nysd.608829.1.0.pdf",
+   "gov.uscourts.nysd.608829.11.0.pdf",
+   "gov.uscourts.nysd.608829.20.0.pdf",
+   "gov.uscourts.nysd.608829.26.0.pdf",
+   "gov.uscourts.nysd.608829.31.0.pdf",
+   "gov.uscourts.nysd.608829.33.0.pdf",
+   "gov.uscourts.nysd.608829.34.0.pdf",
+   "gov.uscourts.nysd.608829.36.0.pdf",
+   "gov.uscourts.nysd.608829.39.0.pdf",
+   "gov.uscourts.nysd.608829.39.2.pdf",
+   "gov.uscourts.nysd.608829.4.0.pdf",
+   "gov.uscourts.nysd.608829.40.0.pdf",
+   "gov.uscourts.nysd.608829.41.0.pdf",
+   "gov.uscourts.nysd.608829.45.0.pdf",
+   "gov.uscourts.nysd.608829.46.0.pdf",
+   "gov.uscourts.nysd.608829.47.0.pdf",
+   "gov.uscourts.nysd.608829.48.0.pdf",
+   "gov.uscourts.nysd.608829.49.0.pdf",
+   "gov.uscourts.nysd.608829.5.0.pdf",
+   "gov.uscourts.nysd.608829.50.0.pdf",
+   "gov.uscourts.nysd.608829.51.0.pdf",
+   "gov.uscourts.nysd.608829.52.0.pdf",
+   "gov.uscourts.nysd.608829.53.0.pdf",
+   "gov.uscourts.nysd.608829.56.0.pdf",
+   "gov.uscourts.nysd.608829.59.0.pdf",
+   "gov.uscourts.nysd.608829.6.0.pdf",
+   "gov.uscourts.nysd.608829.62.0.pdf",
+   "gov.uscourts.nysd.608829.66.0.pdf",
+   "gov.uscourts.nysd.608829.67.0.pdf",
+   "gov.uscourts.nysd.608829.69.1.pdf",
+   "gov.uscourts.nysd.608829.71.0.pdf",
+   "gov.uscourts.nysd.608829.73.0.pdf",
+   "gov.uscourts.nysd.608829.9.0.pdf"
+  ],
+  "s3_complaint": true
+ },
+ {
+  "id": "x4",
+  "case_name": "Preston v. World Travel Holdings, Incorporated",
+  "court": "mad",
+  "date": "2024",
+  "outcome_final": "denied",
+  "note": "MTD counts II-III denied",
+  "ia_candidates": [
+   "gov.uscourts.mad.262392"
+  ],
+  "ia": "gov.uscourts.mad.262392",
+  "ia_title": "Preston v. World Travel Holdings, Incorporated",
+  "ia_pdfs": [
+   "gov.uscourts.mad.262392.1.0.pdf",
+   "gov.uscourts.mad.262392.39.0.pdf",
+   "gov.uscourts.mad.262392.43.0.pdf",
+   "gov.uscourts.mad.262392.55.0.pdf",
+   "gov.uscourts.mad.262392.58.0.pdf",
+   "gov.uscourts.mad.262392.61.0.pdf"
+  ],
+  "s3_complaint": true
+ }
+]

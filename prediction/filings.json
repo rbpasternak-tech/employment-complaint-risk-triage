@@ -1,0 +1,274 @@
+[
+ {
+  "filing_id": "g00-doc50",
+  "matter_id": "g00",
+  "filing_kind": "amended_complaint",
+  "path": "g00/gov.uscourts.cod.212467.50.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.cod.212467/gov.uscourts.cod.212467.50.0.pdf",
+  "filed": "2022-11-28"
+ },
+ {
+  "filing_id": "g00-doc56",
+  "matter_id": "g00",
+  "filing_kind": "ruling",
+  "path": "g00/gov.uscourts.cod.212467.56.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.cod.212467/gov.uscourts.cod.212467.56.0.pdf",
+  "filed": "2023-05-12"
+ },
+ {
+  "filing_id": "g01-doc1",
+  "matter_id": "g01",
+  "filing_kind": "complaint",
+  "path": "g01/gov.uscourts.mied.380334.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.380334/gov.uscourts.mied.380334.1.0.pdf",
+  "filed": "2024-10-11"
+ },
+ {
+  "filing_id": "g01-doc12",
+  "matter_id": "g01",
+  "filing_kind": "motion",
+  "path": "g01/gov.uscourts.mied.380334.12.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.380334/gov.uscourts.mied.380334.12.0.pdf",
+  "filed": "2024-12-12"
+ },
+ {
+  "filing_id": "g02-doc1",
+  "matter_id": "g02",
+  "filing_kind": "complaint",
+  "path": "g02/gov.uscourts.wiwd.51221.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.wiwd.51221/gov.uscourts.wiwd.51221.1.0.pdf",
+  "filed": "2023-04-26"
+ },
+ {
+  "filing_id": "g03-doc1",
+  "matter_id": "g03",
+  "filing_kind": "complaint",
+  "path": "g03/gov.uscourts.nmd.486968.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nmd.486968/gov.uscourts.nmd.486968.1.0.pdf",
+  "filed": "2023-04-19"
+ },
+ {
+  "filing_id": "g03-doc48",
+  "matter_id": "g03",
+  "filing_kind": "ruling",
+  "path": "g03/gov.uscourts.nmd.486968.48.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nmd.486968/gov.uscourts.nmd.486968.48.0.pdf",
+  "filed": "2024-07-22"
+ },
+ {
+  "filing_id": "g04-doc7",
+  "matter_id": "g04",
+  "filing_kind": "complaint",
+  "path": "g04/gov.uscourts.ohsd.280667.7.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.ohsd.280667/gov.uscourts.ohsd.280667.7.0.pdf",
+  "filed": "2023-08-03"
+ },
+ {
+  "filing_id": "g06-doc1",
+  "matter_id": "g06",
+  "filing_kind": "complaint",
+  "path": "g06/gov.uscourts.nhd.57487.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nhd.57487/gov.uscourts.nhd.57487.1.0.pdf",
+  "filed": "2021-08-12"
+ },
+ {
+  "filing_id": "g11-doc1",
+  "matter_id": "g11",
+  "filing_kind": "complaint",
+  "path": "g11/gov.uscourts.casd.795165.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.casd.795165/gov.uscourts.casd.795165.1.0.pdf",
+  "filed": "2024-07-31"
+ },
+ {
+  "filing_id": "g11-doc14",
+  "matter_id": "g11",
+  "filing_kind": "motion",
+  "path": "g11/gov.uscourts.casd.795165.14.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.casd.795165/gov.uscourts.casd.795165.14.0.pdf",
+  "filed": "2024-08-30"
+ },
+ {
+  "filing_id": "g12-doc1",
+  "matter_id": "g12",
+  "filing_kind": "complaint",
+  "path": "g12/gov.uscourts.nyed.457091.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.457091/gov.uscourts.nyed.457091.1.0.pdf",
+  "filed": "2020-12-12"
+ },
+ {
+  "filing_id": "g12-doc9",
+  "matter_id": "g12",
+  "filing_kind": "motion",
+  "path": "g12/gov.uscourts.nyed.457091.9.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nyed.457091/gov.uscourts.nyed.457091.9.0.pdf",
+  "filed": "2021-02-15"
+ },
+ {
+  "filing_id": "g13-doc62",
+  "matter_id": "g13",
+  "filing_kind": "amended_complaint",
+  "path": "g13/gov.uscourts.nynd.138309.62.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nynd.138309/gov.uscourts.nynd.138309.62.0.pdf",
+  "filed": "2024-09-24"
+ },
+ {
+  "filing_id": "g13-doc63",
+  "matter_id": "g13",
+  "filing_kind": "motion",
+  "path": "g13/gov.uscourts.nynd.138309.63.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nynd.138309/gov.uscourts.nynd.138309.63.0.pdf",
+  "filed": "2024-09-30"
+ },
+ {
+  "filing_id": "g14-doc1",
+  "matter_id": "g14",
+  "filing_kind": "complaint",
+  "path": "g14/gov.uscourts.ilnd.431717.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.431717/gov.uscourts.ilnd.431717.1.0.pdf",
+  "filed": "2023-03-24"
+ },
+ {
+  "filing_id": "g14-doc43",
+  "matter_id": "g14",
+  "filing_kind": "ruling",
+  "path": "g14/gov.uscourts.ilnd.431717.43.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.431717/gov.uscourts.ilnd.431717.43.0.pdf",
+  "filed": "2024-02-07"
+ },
+ {
+  "filing_id": "x2-doc25",
+  "matter_id": "x2",
+  "filing_kind": "amended_complaint",
+  "path": "x2/gov.uscourts.mied.367603.25.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.367603/gov.uscourts.mied.367603.25.0.pdf",
+  "filed": "2023-06-05"
+ },
+ {
+  "filing_id": "x3-doc1",
+  "matter_id": "x3",
+  "filing_kind": "complaint",
+  "path": "x3/gov.uscourts.nysd.608829.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.608829/gov.uscourts.nysd.608829.1.0.pdf",
+  "filed": "0000-00-00"
+ },
+ {
+  "filing_id": "x3-doc34",
+  "matter_id": "x3",
+  "filing_kind": "motion",
+  "path": "x3/gov.uscourts.nysd.608829.34.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.608829/gov.uscourts.nysd.608829.34.0.pdf",
+  "filed": "2024-04-21"
+ },
+ {
+  "filing_id": "x4-doc1",
+  "matter_id": "x4",
+  "filing_kind": "complaint",
+  "path": "x4/gov.uscourts.mad.262392.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.262392/gov.uscourts.mad.262392.1.0.pdf",
+  "filed": "2023-10-16"
+ },
+ {
+  "filing_id": "x4-doc43",
+  "matter_id": "x4",
+  "filing_kind": "ruling",
+  "path": "x4/gov.uscourts.mad.262392.43.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.mad.262392/gov.uscourts.mad.262392.43.0.pdf",
+  "filed": "2024-02-09"
+ },
+ {
+  "filing_id": "e00-doc1",
+  "matter_id": "e00",
+  "filing_kind": "complaint",
+  "path": "e00/gov.uscourts.dcd.241189.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.241189/gov.uscourts.dcd.241189.1.0.pdf",
+  "filed": "2022-03-14"
+ },
+ {
+  "filing_id": "e00-doc47",
+  "matter_id": "e00",
+  "filing_kind": "ruling",
+  "path": "e00/gov.uscourts.dcd.241189.47.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.241189/gov.uscourts.dcd.241189.47.0.pdf",
+  "filed": "2024-09-26"
+ },
+ {
+  "filing_id": "e03-doc1",
+  "matter_id": "e03",
+  "filing_kind": "complaint",
+  "path": "e03/gov.uscourts.dcd.259762.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.259762/gov.uscourts.dcd.259762.1.0.pdf",
+  "filed": "2023-09-15"
+ },
+ {
+  "filing_id": "e03-doc4",
+  "matter_id": "e03",
+  "filing_kind": "motion",
+  "path": "e03/gov.uscourts.dcd.259762.4.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.259762/gov.uscourts.dcd.259762.4.0.pdf",
+  "filed": "2023-09-22"
+ },
+ {
+  "filing_id": "e03-doc11",
+  "matter_id": "e03",
+  "filing_kind": "ruling",
+  "path": "e03/gov.uscourts.dcd.259762.11.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.259762/gov.uscourts.dcd.259762.11.0.pdf",
+  "filed": "2023-11-15"
+ },
+ {
+  "filing_id": "e07-doc1",
+  "matter_id": "e07",
+  "filing_kind": "complaint",
+  "path": "e07/gov.uscourts.dcd.220157.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.220157/gov.uscourts.dcd.220157.1.0.pdf",
+  "filed": "2020-07-21"
+ },
+ {
+  "filing_id": "e07-doc19",
+  "matter_id": "e07",
+  "filing_kind": "ruling",
+  "path": "e07/gov.uscourts.dcd.220157.19.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.220157/gov.uscourts.dcd.220157.19.0.pdf",
+  "filed": "2023-03-31"
+ },
+ {
+  "filing_id": "e08-doc1",
+  "matter_id": "e08",
+  "filing_kind": "complaint",
+  "path": "e08/gov.uscourts.dcd.252995.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.252995/gov.uscourts.dcd.252995.1.0.pdf",
+  "filed": "2023-03-10"
+ },
+ {
+  "filing_id": "e08-doc20",
+  "matter_id": "e08",
+  "filing_kind": "ruling",
+  "path": "e08/gov.uscourts.dcd.252995.20.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.252995/gov.uscourts.dcd.252995.20.0.pdf",
+  "filed": "2024-03-28"
+ },
+ {
+  "filing_id": "e10-doc1",
+  "matter_id": "e10",
+  "filing_kind": "complaint",
+  "path": "e10/gov.uscourts.dcd.243592.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.243592/gov.uscourts.dcd.243592.1.0.pdf",
+  "filed": "2022-05-23"
+ },
+ {
+  "filing_id": "e10-doc20",
+  "matter_id": "e10",
+  "filing_kind": "ruling",
+  "path": "e10/gov.uscourts.dcd.243592.20.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.243592/gov.uscourts.dcd.243592.20.0.pdf",
+  "filed": "2023-08-10"
+ },
+ {
+  "filing_id": "g05-doc1",
+  "matter_id": "g05",
+  "filing_kind": "complaint",
+  "path": "g05/gov.uscourts.tnmd.84048.1.0.txt",
+  "source_url": "https://storage.courtlistener.com/recap/gov.uscourts.tnmd.84048/gov.uscourts.tnmd.84048.1.0.pdf",
+  "filed": "0000-00-00"
+ }
+]
