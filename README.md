@@ -1,6 +1,8 @@
 # Employment Complaint Risk Triage
 
-A proof of concept for cheaply triaging risk on incoming employment complaints (and later demand letters). Cheap classifiers score each complaint high / medium / low risk **without seeing the ruling**, and the scores are checked against what judges actually decided on Rule 12(b)(6) motions to dismiss in employment class/collective actions.
+A proof of concept for cheaply triaging risk on incoming employment complaints. Cheap classifiers score each complaint high / medium / low risk **without seeing the ruling**, and the scores are checked against what judges actually decided on Rule 12(b)(6) motions to dismiss in employment class/collective actions.
+
+**Phase 2 proof of concept: demand letters.** Demand letters usually come *before* a complaint (and, for Title VII/ADA claims, before an EEOC charge), so scoring them is the bigger triage opportunity. Phase 2 applies the same scoring to demand letters and checks it against what happened next (no complaint filed, settled, or filed and survived).
 
 > Work in progress: `claude-pack/` (dashboard handoff for Claude) and `prediction/` (complaint + motion filings for the risk test) are still being built. More files are coming.
 

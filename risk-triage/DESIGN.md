@@ -2,6 +2,8 @@
 
 **Goal.** Score how risky an inbound complaint or demand letter is, cheaply, with Decisions and Jev. A reasoning model (GPT or Claude) is the baseline. "Risk" is tied to real outcomes: **did any claim survive a 12(b)(6) motion to dismiss?** Later outcome signals: class certification, MSJ, settlement.
 
+**Phases.** Phase 1 scores complaints against 12(b)(6) outcomes. Phase 2 is a separate proof of concept for demand letters, which usually come before a complaint: it scores them and checks against what happened next (no complaint filed, settled, or filed and survived).
+
 ## Schemas (one project: yhaahsrevxueogdwxxtl)
 
 | Schema | Purpose | Owner | Action |
@@ -23,7 +25,7 @@ flowchart LR
     CL[CourtListener / RECAP]
     GI[GovInfo opinions]
     FC[Free complaint sources<br/>Justia, firm pages]
-    UP[Rebecca uploads<br/>demand letters, later]
+    UP[Rebecca uploads<br/>demand letters, phase 2]
   end
   subgraph legal_ingest [legal_ingest · Dots]
     LI[raw SEC/DOJ filings]
