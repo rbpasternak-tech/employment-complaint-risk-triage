@@ -47,6 +47,7 @@ summary = {"n": len(rows), "cases": len({r["docket"] or r["id"] for r in rows}),
     "ct_agree": sum(r["dct"] == r["jct"] for r in rows if r["dct"]), "ct_n": sum(1 for r in rows if r["dct"]), "gt": len(gt), "cost": cost,
     "built": datetime.datetime.now().strftime("%b %d, %Y %I:%M %p ET"), "sources": sources}
 tpl = open(f"{H}/dashboard/template.html").read()
-out = tpl.replace("/*DATA*/null", json.dumps({"rows": rows, "summary": summary}).replace("</", "<\\/"))
+risk = load(f"{H}/prediction/risk_results.json") or load(f"{H}/../prediction/risk_results.json")
+out = tpl.replace("/*DATA*/null", json.dumps({"rows": rows, "summary": summary, "risk": risk}).replace("</", "<\\/"))
 open(f"{H}/dashboard/index.html", "w").write(out)
 print(f"{len(rows)} rulings, agreement {summary['agree']}/{summary['both']}, ground truth {len(gt)}, cost/1k {{d: {cost['decisions']['per1k']}, j: {cost['jev']['per1k']}}} sources {sources}")

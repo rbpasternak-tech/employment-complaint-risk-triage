@@ -29,6 +29,7 @@ footer{color:var(--mute);font-size:12px;margin-top:18px}
  <div class="card"><h2>Outcome mix by claim type <span style="font-weight:400;color:var(--mute)">(Decisions call)</span></h2><div class="legend" id="legend"></div><div id="chart"></div></div>
 </section>
 <section class="card" style="margin-bottom:18px"><h2>Disagreements <span id="dn" style="font-weight:400;color:var(--mute)"></span></h2><div id="dis"></div></section>
+<section class="card" style="margin-bottom:18px" id="risk"><h2>Complaint risk vs outcome <span style="font-weight:400;color:var(--mute)">(Phase 1: tools saw only the complaint)</span></h2><div id="rk"></div></section>
 <section class="card"><h2>Cases</h2>
  <div class="filters"><input id="q" placeholder="Search case name…"><select id="fc"></select><select id="fo"></select><select id="fa"><option value="">Agree: all</option><option value="y">Agree</option><option value="n">Disagree</option></select><select id="fb"></select></div>
  <table id="t"><thead><tr><th data-k="case">Case</th><th data-k="court">Court</th><th data-k="date">Date</th><th data-k="claim">Claim type</th><th data-k="d">Decisions</th><th data-k="j">Jev</th><th data-k="agree">Agree?</th><th data-k="final">Final</th><th>Opinion</th></tr></thead><tbody></tbody></table>
@@ -74,4 +75,14 @@ const fc_=document.getElementById("fc"),fo_=document.getElementById("fo"),fa_=do
 ["q","fc","fo","fa","fb"].forEach(i=>document.getElementById(i).addEventListener("input",draw));
 document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{sd=sk==th.dataset.k?-sd:1;sk=th.dataset.k;draw()});draw();
 document.getElementById("foot").textContent=`Sources: ${S.sources.join(", ")}. "Final" = accepted ground truth (outcome_final); accuracy is scored only where it is set. Cost uses list input-token prices (Decisions $0.10/M, Jev $0.042/M). Opinions: CourtListener and GovInfo (USCOURTS), public domain.`;
+if(DATA.risk){const K=DATA.risk,T=["decisions","jev","baseline"],TN={decisions:"Decisions",jev:"Jev",baseline:"GPT baseline"},M=K.summary;
+ const tb=t=>t?`<span class="tag ${t=="high"?"denied":t=="medium"?"granted_in_part":"granted"}">${t}</span>`:"—";
+ const row=(s,lab)=>`<tr><td>${lab}</td>${T.map(t=>{const x=s[t];return `<td>${Math.round(100*x.acc_high_vs_not)}% · Brier ${x.brier.toFixed(3)}<br><span style="color:var(--mute);font-size:12px">high ${x.tiers.high} / med ${x.tiers.medium} / low ${x.tiers.low}</span></td>`}).join("")}<td>${Math.round(100*s.base_rate_survived)}% · Brier ${s.always_survive_brier.toFixed(3)}</td></tr>`;
+ document.getElementById("rk").innerHTML=`<p style="background:#fff6e0;padding:8px 10px;border-radius:6px">All three tools rated almost every complaint <b>high</b>. 12 of the 13 confirmed cases survived, so "always high" already scores 92%. The tools have not yet shown they can tell strong complaints from weak ones. Tiny, selected sample: directional only.</p>
+ <table><tr><th>Accuracy (high vs not) · Brier</th>${T.map(t=>`<th>${TN[t]}<br><span style="font-weight:400;color:var(--mute)">${M.ops[t].model}</span></th>`).join("")}<th>Naive "always survives"</th></tr>
+ ${row(M.confirmed_13,"13 confirmed outcomes")}${row(M.all_known_18,"All 18 known (incl. 5 unconfirmed)")}
+ <tr><td>Cost / 1,000 complaints</td>${T.map(t=>`<td>${money(M.ops[t].usd_per_1k_complaints)}</td>`).join("")}<td></td></tr>
+ <tr><td>Median latency</td>${T.map(t=>`<td>${M.ops[t].median_latency_ms_risk} ms</td>`).join("")}<td></td></tr></table>
+ <h3 style="margin-top:14px">Per case</h3><table><tr><th>Case</th><th>Outcome</th><th>Confirmed?</th>${T.map(t=>`<th>${TN[t]}</th>`).join("")}<th>Baseline rationale</th></tr>
+ ${K.cases.map(c=>`<tr><td>${e(c.case_name)}<br><span style="color:var(--mute);font-size:12px">${e((c.court||"").toUpperCase())} · ${e(c.features.decisions.class_vehicle)} · ${e(c.features.decisions.factual_specificity)}</span></td><td>${tag(c.outcome_final)}</td><td>${c.confirmed?'<span class="y">Yes</span>':(c.outcome_final?'<span class="n">No</span>':"—")}</td>${T.map(t=>`<td>${tb(c.risk[t].risk_tier)} ${c.risk[t].p_survive==null?"":c.risk[t].p_survive.toFixed(2)}</td>`).join("")}<td style="font-size:12px">${e(c.risk.baseline.rationale)}${c.input_note?`<br><b>Note:</b> ${e(c.input_note)}`:""}</td></tr>`).join("")}</table>`;}
 </script></body></html>

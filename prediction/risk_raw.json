@@ -1,0 +1,1309 @@
+[
+ {
+  "matter_id": "g00",
+  "filing_id": "g00-doc50",
+  "chars_sent": 20881,
+  "plaintiff_firm_regex": "BRIAN D. GONZALES, PLLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 5250,
+    "tok_est": false,
+    "ms": 925.413851000485
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 5639,
+    "tok_est": false,
+    "ms": 236.83613300090656
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.85,
+    "risk_tier": "high",
+    "tok": 4630,
+    "tok_est": false,
+    "ms": 984.628852995229
+   },
+   "jev": {
+    "p_survive": 0.86,
+    "risk_tier": "high",
+    "tok": 5146,
+    "tok_est": false,
+    "ms": 210.99084099114407
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.94,
+    "rationale": "Specific tip-pool percentages, an identified manager receiving tips, and an alleged $8.80 hourly wage plausibly support tip-retention and Colorado minimum-wage claims. Missing employment dates, thin individual-employer allegations, and generalized break allegations create partial-dismissal risks, but likely not complete dismissal. Second Circuit overtime pleading rules do not control this Colorado action.",
+    "signals": [
+     "Concrete tip-pool allocation percentages",
+     "Named managerial tip recipient with supervisory duties",
+     "Alleged hourly wage and tip-credit use",
+     "Independent federal tip-retention theory",
+     "Colorado wage and break claims",
+     "Rule 23 class and FLSA collective vehicles",
+     "Missing employment dates and specific shifts",
+     "Conclusory individual-defendant employer allegations",
+     "Wage-focused plaintiff counsel",
+     "No arbitration or waiver apparent"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 4547,
+    "tok_out": 252,
+    "tok_reason": 40,
+    "ms": 7297.260988008929
+   }
+  }
+ },
+ {
+  "matter_id": "g01",
+  "filing_id": "g01-doc1",
+  "chars_sent": 39790,
+  "plaintiff_firm_regex": "McGILLIVARY STEELE ELKIN LLP",
+  "arbitration_regex": true,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 7571,
+    "tok_est": false,
+    "ms": 947.2255979926558
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.03,
+    "tok": 8424,
+    "tok_est": false,
+    "ms": 265.80858799570706
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.85,
+    "risk_tier": "high",
+    "tok": 6951,
+    "tok_est": false,
+    "ms": 925.7515240024077
+   },
+   "jev": {
+    "p_survive": 0.79,
+    "risk_tier": "high",
+    "tok": 7931,
+    "tok_est": false,
+    "ms": 227.54528200312052
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.91,
+    "rationale": "The FLSA tip-retention claim plausibly alleges a specific mandatory pool distributing budtenders\u2019 tips to managers and supervisors, with employment dates, pay rate, duties, and distribution mechanics. Paying above minimum wage does not defeat this prohibition. Managerial-status and commerce allegations have some gaps, and unjust enrichment is vulnerable, but complete dismissal is unlikely.",
+    "signals": [
+     "Specific daily and weekly tip-pool mechanics",
+     "Policy change dated September 15, 2024",
+     "Employment since April 2024; $15 hourly wage",
+     "Managers allegedly oversee staff and receive pooled tips",
+     "Section 203(m)(2)(B) applies regardless of tip credit",
+     "Sixth Circuit case; overtime pleading rules inapplicable",
+     "Enterprise revenue alleged above $500,000",
+     "Collective and Rule 23 vehicles do not determine individual viability",
+     "Unjust-enrichment benefit allegations comparatively conclusory",
+     "Experienced wage-and-hour counsel; no pleaded arbitration barrier"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 6868,
+    "tok_out": 289,
+    "tok_reason": 43,
+    "ms": 7453.954707001685
+   }
+  }
+ },
+ {
+  "matter_id": "g02",
+  "filing_id": "g02-doc1",
+  "chars_sent": 45121,
+  "plaintiff_firm_regex": "WALCHESKE & LUZI, LLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 11111,
+    "tok_est": false,
+    "ms": 1019.0560390037717
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 11999,
+    "tok_est": false,
+    "ms": 301.2670739990426
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.86,
+    "risk_tier": "high",
+    "tok": 10491,
+    "tok_est": false,
+    "ms": 910.2239810017636
+   },
+   "jev": {
+    "p_survive": 0.85,
+    "risk_tier": "high",
+    "tok": 11506,
+    "tok_est": false,
+    "ms": 255.5859770072857
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.85,
+    "rationale": "The complaint plausibly links unpaid overtime and Wisconsin wages to employer-controlled, non-neutral timeclock rounding. Seventh Circuit pleading standards favor survival without exact weekly calculations. Missing examples, unspecified rounding increments, and contradictory employment dates create vulnerabilities, but likely do not defeat every claim. Class certification and rounding neutrality ordinarily require factual development.",
+    "signals": [
+     "FLSA collective and Wisconsin Rule 23 class",
+     "Specific time-shaving mechanism alleged",
+     "Over-40-hour workweeks expressly alleged",
+     "Wisconsin straight-time claim provides alternative recovery",
+     "Direct employer; no joint-employer complexity",
+     "No exact hours, pay rate, or sample workweek",
+     "Employment end date precedes alleged hire date",
+     "No arbitration or waiver apparent",
+     "Experienced wage-and-hour counsel identified"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 10408,
+    "tok_out": 256,
+    "tok_reason": 52,
+    "ms": 7310.003296006471
+   }
+  }
+ },
+ {
+  "matter_id": "g03",
+  "filing_id": "g03-doc1",
+  "chars_sent": 38724,
+  "plaintiff_firm_regex": "ANDERSON ALEXANDER PLLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 9329,
+    "tok_est": false,
+    "ms": 972.8603159892373
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 10164,
+    "tok_est": false,
+    "ms": 237.2817340074107
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.86,
+    "risk_tier": "high",
+    "tok": 8709,
+    "tok_est": false,
+    "ms": 1025.4145479993895
+   },
+   "jev": {
+    "p_survive": 0.87,
+    "risk_tier": "high",
+    "tok": 9671,
+    "tok_est": false,
+    "ms": 232.61482099769637
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.88,
+    "rationale": "The complaint plausibly links recurring overtime to unpaid, interrupted meal periods and excluded shift differentials, with employment dates, duties, shift lengths, and employer control alleged. Missing example workweeks and conclusory willfulness create vulnerabilities, especially because employment ended over two years before filing. Nevertheless, the New Mexico overtime claim provides an independent survival path; certification disputes need not defeat individual claims.",
+    "signals": [
+     "FLSA collective and Rule 23 state-law classes",
+     "Thirty-minute deductions paired with required on-duty work",
+     "Alleged 12\u201314-hour shifts, up to six days weekly",
+     "Shift differentials allegedly excluded from regular rate",
+     "Employer supervision and payroll control alleged",
+     "No specific workweek, pay rate, or underpayment calculation",
+     "Tenth Circuit forum; Second Circuit standards not controlling",
+     "FLSA timeliness depends on adequately pleaded willfulness",
+     "State claim potentially timely under three-year limitations period",
+     "No arbitration agreement or waiver apparent",
+     "Specialized wage-and-hour plaintiff counsel"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 8626,
+    "tok_out": 310,
+    "tok_reason": 53,
+    "ms": 8203.124595005647
+   }
+  }
+ },
+ {
+  "matter_id": "g04",
+  "filing_id": "g04-doc7",
+  "chars_sent": 25485,
+  "plaintiff_firm_regex": null,
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 6451,
+    "tok_est": false,
+    "ms": 203.9707389922114
+   },
+   "jev": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.06,
+    "tok": 7112,
+    "tok_est": false,
+    "ms": 208.61800499551464
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.84,
+    "risk_tier": "high",
+    "tok": 5831,
+    "tok_est": false,
+    "ms": 187.15296499431133
+   },
+   "jev": {
+    "p_survive": 0.74,
+    "risk_tier": "high",
+    "tok": 6619,
+    "tok_est": false,
+    "ms": 225.0336800061632
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.78,
+    "rationale": "The supplied document is an answer/counterclaim, not the complaint, limiting pleading assessment. It nevertheless identifies straight-time overtime payments, a specific hourly rate, employment dates, and separate retaliation allegations. The Motor Carrier Act exemption ordinarily requires factual analysis; collective-action weaknesses would not defeat individual claims. At least one claim likely survives, subject to the missing complaint\u2019s actual allegations.",
+    "signals": [
+     "Wrong pleading supplied; original allegations unavailable",
+     "Sixth Circuit forum",
+     "FLSA collective plus individual Ohio wage claims",
+     "Straight-time overtime payments admitted",
+     "$25.50 hourly rate and employment dates identified",
+     "Motor Carrier Act exemption potentially fact-dependent",
+     "Separate FLSA retaliation claim",
+     "Collective viability distinct from individual claim survival"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 5748,
+    "tok_out": 281,
+    "tok_reason": 84,
+    "ms": 6946.365158990375
+   }
+  }
+ },
+ {
+  "matter_id": "g06",
+  "filing_id": "g06-doc1",
+  "chars_sent": 14681,
+  "plaintiff_firm_regex": "UPTON & HATFIELD LLP",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 4009,
+    "tok_est": false,
+    "ms": 252.01445299899206
+   },
+   "jev": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.03,
+    "tok": 4366,
+    "tok_est": false,
+    "ms": 214.86602700315416
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.93,
+    "risk_tier": "high",
+    "tok": 3389,
+    "tok_est": false,
+    "ms": 253.22127500839997
+   },
+   "jev": {
+    "p_survive": 0.82,
+    "risk_tier": "high",
+    "tok": 3873,
+    "tok_est": false,
+    "ms": 188.81189099920448
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.8,
+    "rationale": "A recurring 50-plus-hour schedule, unpaid overtime policy, and detailed routine duties plausibly support an FLSA claim under First Circuit pleading standards. Exemption likely requires factual development. The principal vulnerability is limitations: employment ended outside the two-year window, making survival depend on adequately pleaded willfulness. Alleged knowledge and selective overtime payments support, but do not establish, willfulness.",
+    "signals": [
+     "FLSA collective action against direct employer",
+     "Ten-plus hours daily, five days weekly",
+     "Employment dates specified",
+     "Routine duties and restricted discretion described",
+     "Management-approval requirement for overtime",
+     "No specific unpaid week or salary amount",
+     "Two-year limitations period expired before filing",
+     "Three-year recovery depends on willfulness",
+     "No arbitration or waiver apparent"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 3306,
+    "tok_out": 302,
+    "tok_reason": 97,
+    "ms": 7568.314520991407
+   }
+  }
+ },
+ {
+  "matter_id": "g11",
+  "filing_id": "g11-doc1",
+  "chars_sent": 60009,
+  "plaintiff_firm_regex": "10 Non-equity Partner Class was an employee of Duane Morris, LLP and not a partner.",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "rule23_class",
+    "claim_type": "state_wage_hour",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 12583,
+    "tok_est": false,
+    "ms": 270.0847340020118
+   },
+   "jev": {
+    "class_vehicle": "rule23_class",
+    "claim_type": "state_wage_hour",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.03,
+    "tok": 13784,
+    "tok_est": false,
+    "ms": 268.36249699408654
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.79,
+    "risk_tier": "high",
+    "tok": 11963,
+    "tok_est": false,
+    "ms": 283.8667210016865
+   },
+   "jev": {
+    "p_survive": 0.83,
+    "risk_tier": "high",
+    "tok": 13291,
+    "tok_est": false,
+    "ms": 244.63875600486062
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.94,
+    "rationale": "Detailed allegations of firm control, absent ownership rights, specific wage deductions, and identifiable comparator pay disparities plausibly support employee status and California wage claims. Equal-pay allegations also cover her undisputed employee period. Fraud, tax, and derivative theories face vulnerabilities, but dismissal of every claim appears unlikely; class-certification issues do not eliminate individual claims.",
+    "signals": [
+     "January 2021 classification change with unchanged duties",
+     "Specific supervision, termination, and governance allegations",
+     "4% capital deduction and 18% annual holdback",
+     "California equal-pay comparators with dates and pay differences",
+     "Equal-pay allegations during admitted employee status",
+     "Rule 23 classes with California subclasses",
+     "Partner-versus-employee status is fact-intensive",
+     "Fraud particularity and tax-remedy vulnerabilities",
+     "No arbitration or waiver disclosed",
+     "No pleaded FLSA overtime claim requiring weekly-hour specificity"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 11880,
+    "tok_out": 277,
+    "tok_reason": 49,
+    "ms": 7568.3199479972245
+   }
+  }
+ },
+ {
+  "matter_id": "g12",
+  "filing_id": "g12-doc1",
+  "chars_sent": 30916,
+  "plaintiff_firm_regex": "Law Offices of Hui Chen & Associates, PLLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 7715,
+    "tok_est": false,
+    "ms": 191.3621349958703
+   },
+   "jev": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 8422,
+    "tok_est": false,
+    "ms": 234.26913400180638
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.87,
+    "risk_tier": "high",
+    "tok": 7095,
+    "tok_est": false,
+    "ms": 196.78986599319614
+   },
+   "jev": {
+    "p_survive": 0.84,
+    "risk_tier": "high",
+    "tok": 7929,
+    "tok_est": false,
+    "ms": 264.8426100058714
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.94,
+    "rationale": "The recurring 10 a.m.\u20138 p.m. weekday schedule and alleged nonpayment plausibly satisfy Second Circuit overtime pleading requirements despite missing pay rates. Dated wage arrears and quantified loans and expenses independently support wage and contract claims. Exempt status is not established by the managing-director title alone. Weak spread-of-hours and collective allegations may narrow, but likely will not eliminate, the case.",
+    "signals": [
+     "Specific recurring schedule exceeds 40 hours",
+     "Dated unpaid wages totaling $53,600",
+     "Quantified loans and unreimbursed expenses",
+     "Salary and regular pay rate omitted",
+     "Managerial title does not establish exemption",
+     "Owner control over pay and schedules alleged",
+     "Wine-import business supports interstate coverage",
+     "Spread-of-hours allegations vulnerable",
+     "Collective allegations largely boilerplate",
+     "No arbitration or waiver alleged"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 7012,
+    "tok_out": 265,
+    "tok_reason": 45,
+    "ms": 6558.444182999665
+   }
+  }
+ },
+ {
+  "matter_id": "g13",
+  "filing_id": "g13-doc62",
+  "chars_sent": 45332,
+  "plaintiff_firm_regex": "ANDERSON ALEXANDER PLLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 10851,
+    "tok_est": false,
+    "ms": 253.2845949899638
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 11849,
+    "tok_est": false,
+    "ms": 406.51874100149143
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.91,
+    "risk_tier": "high",
+    "tok": 10231,
+    "tok_est": false,
+    "ms": 268.7823699961882
+   },
+   "jev": {
+    "p_survive": 0.88,
+    "risk_tier": "high",
+    "tok": 11356,
+    "tok_est": false,
+    "ms": 247.75726698862854
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.95,
+    "rationale": "Alleged five-day, ten-hour schedules, an identified overtime week, quantified unpaid pre/post-shift work, and employer instructions plausibly satisfy Second Circuit overtime pleading standards. FLSA and NYLL claims likely survive even if meal-break, rounding, or class allegations are narrowed. Missing pay rates and template errors are unlikely to defeat all claims.",
+    "signals": [
+     "Typical 50-hour workweek alleged",
+     "Specific overtime week: August 2, 2021",
+     "Quantified unpaid pre/post-shift work",
+     "Concrete compensable patient-care duties",
+     "Employer-directed off-clock work and knowledge",
+     "Daily 30-minute meal deductions",
+     "FLSA collective and NYLL Rule 23 class",
+     "Direct employment alleged; no joint-employer dependency",
+     "No arbitration or waiver apparent",
+     "Specialized wage-hour plaintiff counsel",
+     "Template errors and missing hourly rate"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 10148,
+    "tok_out": 278,
+    "tok_reason": 49,
+    "ms": 6672.882013997878
+   }
+  }
+ },
+ {
+  "matter_id": "g14",
+  "filing_id": "g14-doc1",
+  "chars_sent": 34253,
+  "plaintiff_firm_regex": null,
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "2_10",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 8037,
+    "tok_est": false,
+    "ms": 238.44979700515978
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "state_wage_hour",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "2_10",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.03,
+    "tok": 8836,
+    "tok_est": false,
+    "ms": 223.98292701109312
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.86,
+    "risk_tier": "high",
+    "tok": 7417,
+    "tok_est": false,
+    "ms": 198.053111002082
+   },
+   "jev": {
+    "p_survive": 0.82,
+    "risk_tier": "high",
+    "tok": 8343,
+    "tok_est": false,
+    "ms": 237.15952099882998
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.94,
+    "rationale": "Detailed control allegations plausibly establish employee status, while identified underpayment weeks and substantial expenses support FLSA minimum-wage claims. Unauthorized deductions independently support IWPCA relief. Truth-in-Leasing allegations identify specific charges and escrow defects, although statutory miscitation and lease applicability create vulnerabilities. Missing exact weekly wage calculations could narrow claims but are unlikely to produce complete dismissal.",
+    "signals": [
+     "Seventh Circuit; specific underpayment weeks identified",
+     "Up to 70 weekly hours; approximately $3,500 weekly expenses",
+     "Detailed dispatch, route, exclusivity, and discipline allegations",
+     "Unauthorized deductions and unreturned escrow alleged",
+     "Officer compensation control supports individual liability",
+     "Dated, quantified Truth-in-Leasing chargebacks",
+     "Truth-in-Leasing statutory miscitation and applicability questions",
+     "Rule 23 classes and FLSA collective pleaded",
+     "Sophisticated wage-and-hour plaintiff counsel",
+     "No arbitration provision or waiver disclosed"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 7334,
+    "tok_out": 285,
+    "tok_reason": 48,
+    "ms": 8259.941978991264
+   }
+  }
+ },
+ {
+  "matter_id": "x2",
+  "filing_id": "x2-doc25",
+  "chars_sent": 52477,
+  "plaintiff_firm_regex": null,
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "2_10",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 13404,
+    "tok_est": false,
+    "ms": 219.25000999181066
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "2_10",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 15116,
+    "tok_est": false,
+    "ms": 287.961741007166
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.9,
+    "risk_tier": "high",
+    "tok": 12784,
+    "tok_est": false,
+    "ms": 258.932274999097
+   },
+   "jev": {
+    "p_survive": 0.88,
+    "risk_tier": "high",
+    "tok": 14623,
+    "tok_est": false,
+    "ms": 283.7211650039535
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.94,
+    "rationale": "Specific workweeks, hours, rates, and earnings plausibly establish at least one FLSA overtime claim, particularly the February 2022 allegation of 40.7 hours paid entirely at straight time. These facts exceed conclusory pleading under Sixth Circuit standards. Regular-rate arithmetic and state-law theories invite challenges, but class-certification issues should not defeat all individual claims.",
+    "signals": [
+     "Dated overtime workweeks with hours, rates, and gross pay",
+     "Independent straight-time-only overtime allegation",
+     "Dated $500 allegedly nondiscretionary performance bonus",
+     "Direct employer and enterprise coverage pleaded",
+     "FLSA collective and Illinois/Ohio Rule 23 classes",
+     "Centralized payroll practice alleged",
+     "Some shift-differential examples invite arithmetic scrutiny",
+     "IWPCA overtime agreement insufficiently developed",
+     "No arbitration or waiver apparent",
+     "Sophisticated wage-and-hour counsel"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 12701,
+    "tok_out": 342,
+    "tok_reason": 113,
+    "ms": 9261.904635990504
+   }
+  }
+ },
+ {
+  "matter_id": "x3",
+  "filing_id": "x3-doc1",
+  "chars_sent": 60009,
+  "plaintiff_firm_regex": "LIPSKY LOWE LLP",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "state_wage_hour",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "11_100",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 14825,
+    "tok_est": false,
+    "ms": 251.22538999130484
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "state_wage_hour",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "11_100",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 16630,
+    "tok_est": false,
+    "ms": 283.91818299132865
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.95,
+    "risk_tier": "high",
+    "tok": 14205,
+    "tok_est": false,
+    "ms": 209.77370400214568
+   },
+   "jev": {
+    "p_survive": 0.91,
+    "risk_tier": "high",
+    "tok": 16137,
+    "tok_est": false,
+    "ms": 304.22782500681933
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.98,
+    "rationale": "Specific pay rates, schedules, dated time-record alterations, unpaid training, and manager tip diversion plausibly support multiple wage claims. Missing tip-credit notice strongly supports NYLL minimum-wage liability. Shared scheduling, staffing, supplies, and direct supervision substantiate employer allegations. Wage-notice standing and payment-frequency remedies may be contested, but full dismissal is unlikely.",
+    "signals": [
+     "Rule 23 class and FLSA collective",
+     "Individualized employment dates and schedules",
+     "$10 hourly pay; no tip-credit notice",
+     "Dated clock-record alterations",
+     "Unpaid training and mandatory meetings",
+     "Manager tip pooling and specific tip confiscation",
+     "Identified shifts exceeding ten hours",
+     "Concrete shared operations and supervision",
+     "No pleaded arbitration or waiver",
+     "Sophisticated employment counsel",
+     "Wage-notice standing potentially vulnerable",
+     "Lundy/Dejesus overtime specificity not central"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 14122,
+    "tok_out": 296,
+    "tok_reason": 66,
+    "ms": 8214.515432002372
+   }
+  }
+ },
+ {
+  "matter_id": "x4",
+  "filing_id": "x4-doc1",
+  "chars_sent": 60009,
+  "plaintiff_firm_regex": null,
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 13564,
+    "tok_est": false,
+    "ms": 298.83627500385046
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.03,
+    "tok": 14834,
+    "tok_est": false,
+    "ms": 244.53881500812713
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.87,
+    "risk_tier": "high",
+    "tok": 12944,
+    "tok_est": false,
+    "ms": 251.68438100081403
+   },
+   "jev": {
+    "p_survive": 0.87,
+    "risk_tier": "high",
+    "tok": 14341,
+    "tok_est": false,
+    "ms": 249.88334499357734
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.97,
+    "rationale": "Specific unpaid tasks, daily time estimates, employer directives, and a dated paystub showing paid overtime plausibly establish uncompensated overtime under First Circuit pleading standards. Detailed bonus allegations provide another FLSA theory. Contract, unjust-enrichment, and nationwide-class issues may narrow the action but are unlikely to defeat every claim. No arbitration barrier appears in the complaint.",
+    "signals": [
+     "Dated pay period with 17.42 overtime hours",
+     "$15 base rate and $22.50 overtime rate",
+     "22\u201333 unpaid minutes per shift alleged",
+     "Named software and detailed required login sequence",
+     "Employer instructions and time-record adjustments alleged",
+     "Specific bonus amounts allegedly excluded from regular rate",
+     "Direct employer; no joint-employer ambiguity",
+     "FLSA collective plus nationwide Rule 23 claims",
+     "Sophisticated wage-and-hour counsel",
+     "No pleaded arbitration or waiver"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 12861,
+    "tok_out": 279,
+    "tok_reason": 53,
+    "ms": 8074.099050005316
+   }
+  }
+ },
+ {
+  "matter_id": "e00",
+  "filing_id": "e00-doc1",
+  "chars_sent": 60009,
+  "plaintiff_firm_regex": "HERRMANN LAW, PLLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 15123,
+    "tok_est": false,
+    "ms": 269.44026300043333
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 16729,
+    "tok_est": false,
+    "ms": 318.7290589994518
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.9,
+    "risk_tier": "high",
+    "tok": 14503,
+    "tok_est": false,
+    "ms": 278.4899200050859
+   },
+   "jev": {
+    "p_survive": 0.87,
+    "risk_tier": "high",
+    "tok": 16236,
+    "tok_est": false,
+    "ms": 297.78686798817944
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.95,
+    "rationale": "Employment dates, cash wages, tip-pool allocations, and noncustomer-facing recipients plausibly establish minimum-wage violations through invalid tip credits. Federal and DC notice theories provide additional routes to survival. Joint-employer allegations and side-work theories face vulnerabilities, but those likely produce only partial dismissal. Overtime-specific pleading requirements are inapplicable, and no arbitration agreement appears.",
+    "signals": [
+     "February 2020\u2013December 2021 employment",
+     "$5.05 hourly cash wage alleged",
+     "Specific 10-point/5-point tip-pool allocations",
+     "Expediters and polishers allegedly lack customer contact",
+     "Federal and DC tip-credit notice failures",
+     "FLSA collective and Rule 23 DC class",
+     "Joint-employer allegations comparatively thin",
+     "Side-work regulatory timing vulnerability",
+     "Sophisticated wage-hour plaintiff counsel",
+     "No pleaded arbitration or waiver"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 14420,
+    "tok_out": 190,
+    "tok_reason": 0,
+    "ms": 5551.659602992004
+   }
+  }
+ },
+ {
+  "matter_id": "e03",
+  "filing_id": "e03-doc1",
+  "chars_sent": 6475,
+  "plaintiff_firm_regex": "Alan Lescht & Associates",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "boilerplate",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "none",
+    "arbitration_mentioned": 0.06,
+    "tok": 2354,
+    "tok_est": false,
+    "ms": 256.7928270000266
+   },
+   "jev": {
+    "class_vehicle": "both",
+    "claim_type": "flsa",
+    "factual_specificity": "boilerplate",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.11,
+    "tok": 2479,
+    "tok_est": false,
+    "ms": 234.56472500402015
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": null,
+    "risk_tier": "high",
+    "tok": 1566,
+    "tok_est": false,
+    "ms": 293.69569300615694
+   },
+   "jev": {
+    "p_survive": 0.65,
+    "risk_tier": "high",
+    "tok": 1986,
+    "tok_est": false,
+    "ms": 173.32297599932645
+   },
+   "baseline": {
+    "risk_tier": "medium",
+    "p_survive": 0.5,
+    "rationale": "The supplied document is a notice of removal, not the complaint; referenced Exhibit B is unavailable. It identifies FLSA and two D.C. wage claims with collective/class allegations, but supplies no underlying employment or pay facts. Pleading sufficiency, exemptions, and arbitration defenses therefore cannot be assessed reliably.",
+    "signals": [
+     "Actual complaint unavailable",
+     "FLSA, D.C. WPCL, and MWA claims identified",
+     "Collective/class allegations reported",
+     "Single named employer",
+     "Plaintiff represented by employment counsel",
+     "Hours, pay rates, and violation dates unavailable",
+     "Arbitration or waiver terms unknown"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 1651,
+    "tok_out": 193,
+    "tok_reason": 46,
+    "ms": 5156.924833994708
+   }
+  }
+ },
+ {
+  "matter_id": "e07",
+  "filing_id": "e07-doc1",
+  "chars_sent": 30779,
+  "plaintiff_firm_regex": "MELEHY & ASSOCIATES LLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "individual",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "2_10",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 8238,
+    "tok_est": false,
+    "ms": 561.8041749985423
+   },
+   "jev": {
+    "class_vehicle": "individual",
+    "claim_type": "flsa",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "2_10",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 9109,
+    "tok_est": false,
+    "ms": 225.42160301236436
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.85,
+    "risk_tier": "high",
+    "tok": 7618,
+    "tok_est": false,
+    "ms": 253.45818400091957
+   },
+   "jev": {
+    "p_survive": 0.86,
+    "risk_tier": "high",
+    "tok": 8616,
+    "tok_est": false,
+    "ms": 206.7275630106451
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.94,
+    "rationale": "Specific allegations of uncompensated loading and workday travel plausibly support D.C. wage claims independently of disputed Davis-Bacon entitlement. Employment dates, pay rates, and individual defendants\u2019 control are detailed. Overtime allegations lack quantified weeks, and prevailing-wage theories face legal hurdles, but dismissal of every claim is unlikely. Contractor liability supplies an additional route against Mid-Atlantic.",
+    "signals": [
+     "Two individual plaintiffs; no class or collective pleaded",
+     "Employment dates and hourly pay ranges specified",
+     "Concrete unpaid loading and workday-travel practices",
+     "No quantified overtime week or weekly schedule",
+     "Detailed individual-employer control allegations",
+     "Joint-employer supervision and tools alleged",
+     "D.C. statutory contractor liability pleaded",
+     "Davis-Bacon coverage and enforcement vulnerabilities",
+     "No arbitration or waiver apparent",
+     "Sophisticated wage-law pleading"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 7535,
+    "tok_out": 261,
+    "tok_reason": 41,
+    "ms": 6815.039113993407
+   }
+  }
+ },
+ {
+  "matter_id": "e08",
+  "filing_id": "e08-doc1",
+  "chars_sent": 13644,
+  "plaintiff_firm_regex": "COHEN MILSTEIN SELLERS & TOLL PLLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "individual",
+    "claim_type": "title_vii",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 3805,
+    "tok_est": false,
+    "ms": 202.24370699725114
+   },
+   "jev": {
+    "class_vehicle": "individual",
+    "claim_type": "title_vii",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 4109,
+    "tok_est": false,
+    "ms": 258.75035900389776
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.89,
+    "risk_tier": "high",
+    "tok": 3185,
+    "tok_est": false,
+    "ms": 186.37261301046237
+   },
+   "jev": {
+    "p_survive": 0.84,
+    "risk_tier": "high",
+    "tok": 3616,
+    "tok_est": false,
+    "ms": 216.67784001328982
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.94,
+    "rationale": "Specific male comparators, salary figures, unequal experience credit, and alleged agency admissions plausibly support intentional sex-based pay discrimination under D.C. Circuit pleading standards. Detailed exhaustion dates and ongoing unequal pay support timeliness. Reliance on prior salary may invite defenses, and some remedies or historical promotion allegations may fail, but full dismissal appears unlikely.",
+    "signals": [
+     "Title VII individual disparate-treatment claim",
+     "Male comparators with hiring dates and salaries",
+     "Less-qualified men allegedly paid substantially more",
+     "Concrete unequal treatment of comparable internships",
+     "Agency allegedly acknowledged equal work and lowest pay",
+     "Detailed administrative exhaustion chronology",
+     "Ongoing discriminatory compensation allegations",
+     "No developed Rule 23 class allegations",
+     "Punitive damages unavailable against federal defendant",
+     "Sophisticated employment counsel"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 3102,
+    "tok_out": 249,
+    "tok_reason": 45,
+    "ms": 7440.7461029913975
+   }
+  }
+ },
+ {
+  "matter_id": "e10",
+  "filing_id": "e10-doc1",
+  "chars_sent": 31028,
+  "plaintiff_firm_regex": "GOODLEY MCCARTHY LLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "individual",
+    "claim_type": "flsa",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 7498,
+    "tok_est": false,
+    "ms": 284.6414340019692
+   },
+   "jev": {
+    "class_vehicle": "individual",
+    "claim_type": "flsa",
+    "factual_specificity": "specific",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 8256,
+    "tok_est": false,
+    "ms": 279.86045900615864
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.87,
+    "risk_tier": "high",
+    "tok": 6878,
+    "tok_est": false,
+    "ms": 246.05114400037564
+   },
+   "jev": {
+    "p_survive": 0.87,
+    "risk_tier": "high",
+    "tok": 7763,
+    "tok_est": false,
+    "ms": 267.3357070016209
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.96,
+    "rationale": "Concrete allegations of 60\u201370-hour weeks, salary amounts, unpaid overtime, and nonexempt duties plausibly support wage claims. Named comparators, disparate work assignments, and discrimination complaints followed by termination support Section 1981 claims. DCHRA limitations and thin FLSA coverage allegations create vulnerabilities, but dismissal of every claim is unlikely.",
+    "signals": [
+     "Specific weekly hours, salaries, and employment periods",
+     "Detailed duties undermine overtime exemptions",
+     "Named comparators and quantified scheduling disparities",
+     "Protected complaints closely precede alleged termination",
+     "Section 1981 claims provide independent survival pathway",
+     "Potential DCHRA limitations issue",
+     "FLSA interstate-commerce coverage pleaded conclusorily",
+     "Individual action against direct employer",
+     "No apparent arbitration or waiver"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 6795,
+    "tok_out": 276,
+    "tok_reason": 72,
+    "ms": 7240.929045001394
+   }
+  }
+ },
+ {
+  "matter_id": "g05",
+  "filing_id": "g05-doc1",
+  "chars_sent": 14473,
+  "plaintiff_firm_regex": "BARRETT JOHNSTON MARTIN & GARRISON, LLC",
+  "arbitration_regex": false,
+  "features": {
+   "decisions": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.0,
+    "tok": 3993,
+    "tok_est": false,
+    "ms": 227.3719929944491
+   },
+   "jev": {
+    "class_vehicle": "flsa_collective",
+    "claim_type": "flsa",
+    "factual_specificity": "mixed",
+    "plaintiff_count_bucket": "1",
+    "damages_pled": "unspecified",
+    "arbitration_mentioned": 0.02,
+    "tok": 4305,
+    "tok_est": false,
+    "ms": 216.9151660054922
+   }
+  },
+  "risk": {
+   "decisions": {
+    "p_survive": 0.86,
+    "risk_tier": "high",
+    "tok": 3373,
+    "tok_est": false,
+    "ms": 231.9022559968289
+   },
+   "jev": {
+    "p_survive": 0.8,
+    "risk_tier": "high",
+    "tok": 3812,
+    "tok_est": false,
+    "ms": 191.11104399780743
+   },
+   "baseline": {
+    "risk_tier": "high",
+    "p_survive": 0.9,
+    "rationale": "The complaint plausibly alleges recurring overtime and a concrete policy withholding pay for hours 40\u201345, alongside hourly compensation inconsistent with the asserted exemption. Under Sixth Circuit pleading standards, missing example workweeks or pay rates likely is not fatal. Salary-basis and public-employer exceptions require factual development; collective-certification issues should not defeat the individual claim.",
+    "signals": [
+     "Specific unpaid five-hour overtime band",
+     "Recurring workweeks exceeding 40 hours alleged",
+     "Hourly classification and compensation alleged",
+     "Detailed timekeeping practices",
+     "Employment and promotion dates supplied",
+     "No example workweek or numerical pay rate",
+     "Exemption generally an affirmative defense",
+     "Public-sector salary rules may complicate merits",
+     "Common-policy FLSA collective allegations",
+     "No apparent arbitration or waiver issue"
+    ],
+    "model": "gpt-6.1-sol",
+    "tok_in": 3290,
+    "tok_out": 256,
+    "tok_reason": 49,
+    "ms": 6419.445104998886
+   }
+  }
+ }
+]
